@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private InputStream inputStream;
     Thread thread;
     boolean stopThread;
-    Button naprej, nazaj,prestava, connect, camera;
+    Button naprej, nazaj,prestava, connect;
     TextView text;
     String command;
 
@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
         nazaj =  (Button) findViewById(R.id.IDnazaj);
         prestava =  (Button) findViewById(R.id.IDprestava);
         connect =  (Button) findViewById(R.id.IDconnect);
-        camera =  (Button) findViewById(R.id.IDcamera);
         text =  (TextView) findViewById(R.id.IDTextview);
 
 
@@ -289,13 +288,6 @@ public class MainActivity extends AppCompatActivity {
                         beginListenForData();
                     }
                 }
-            }
-        });
-        camera.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent opencamera = new Intent(getBaseContext(), CameraSmile.class);
-                startActivity(opencamera);
             }
         });
     }

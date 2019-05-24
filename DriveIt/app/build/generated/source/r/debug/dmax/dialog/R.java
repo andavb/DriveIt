@@ -27,8 +27,8 @@ public final class R {
         public static final int dmax_spots_spot = 0x7f06006a;
     }
     public static final class id {
-        public static final int dmax_spots_progress = 0x7f07004a;
-        public static final int dmax_spots_title = 0x7f07004b;
+        public static final int dmax_spots_progress = 0x7f070049;
+        public static final int dmax_spots_title = 0x7f07004a;
     }
     public static final class layout {
         public static final int dmax_spots_dialog = 0x7f09001f;

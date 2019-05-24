@@ -1,5 +1,6 @@
 package com.example.andrejavbelj.driveit;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Camera;
@@ -150,9 +151,18 @@ public class CameraSmile extends AppCompatActivity {
             if (obraz.getSmilingProbability() != FirebaseVisionFace.UNCOMPUTED_PROBABILITY) {
                 float nasmeh = obraz.getSmilingProbability();
 
+                System.out.println("Nasmeh prob: " + String.valueOf(nasmeh));
+
                 dialog.dismiss();
 
-                Toast.makeText(CameraSmile.this, String.valueOf(nasmeh), Toast.LENGTH_SHORT).show();
+                if (nasmeh > 0.2){
+                    Toast.makeText(CameraSmile.this, "Bravo odklenili ste z nasmehom!", Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(getBaseContext(), MainActivity.class);
+                    startActivity(i);
+                }
+                else{
+                    Toast.makeText(CameraSmile.this, "Malo bolj se nasmejte!", Toast.LENGTH_SHORT).show();
+                }
 
             }
         }
