@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">DriveIt</string>
+    <string name="login">Prijava</string>
+    <string name="hintUserName">Uporabniško ime</string>
+    <string name="hintPassword">Geslo</string>
 </resources>

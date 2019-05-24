@@ -17,18 +17,18 @@ public final class R {
         public static final int spots_dialog_color = 0x7f040060;
     }
     public static final class dimen {
-        public static final int progress_margin = 0x7f05006a;
-        public static final int progress_width = 0x7f05006b;
-        public static final int spot_size = 0x7f05006c;
-        public static final int title_margin = 0x7f05006d;
-        public static final int title_padding = 0x7f05006e;
+        public static final int progress_margin = 0x7f05006b;
+        public static final int progress_width = 0x7f05006c;
+        public static final int spot_size = 0x7f05006d;
+        public static final int title_margin = 0x7f05006e;
+        public static final int title_padding = 0x7f05006f;
     }
     public static final class drawable {
-        public static final int dmax_spots_spot = 0x7f060068;
+        public static final int dmax_spots_spot = 0x7f06006a;
     }
     public static final class id {
-        public static final int dmax_spots_progress = 0x7f070046;
-        public static final int dmax_spots_title = 0x7f070047;
+        public static final int dmax_spots_progress = 0x7f07004a;
+        public static final int dmax_spots_title = 0x7f07004b;
     }
     public static final class layout {
         public static final int dmax_spots_dialog = 0x7f09001f;

@@ -10,14 +10,16 @@
         android:id="@+id/IDcameraView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:ckFacing="front"></com.wonderkiln.camerakit.CameraView>
+        app:ckFacing="front">
 
-    <Button
-        android:id="@+id/IDslikajBtn"
+    </com.wonderkiln.camerakit.CameraView>
+
+    <ImageView
+        android:id="@+id/IDslikaBtn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="10dp"
-        android:text="Slikaj" />
+        app:srcCompat="@drawable/ic_oval" />
 </RelativeLayout>
