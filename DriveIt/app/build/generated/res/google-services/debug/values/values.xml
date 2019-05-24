@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">4681024516-vnm66butau4tglpipno85le09oukpgt6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://driveit-279a7.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">4681024516</string>
+    <string name="google_api_key" translatable="false">AIzaSyDuJaN0KYA06HnRmYW4qlZDsUfBUbhsll8</string>
+    <string name="google_app_id" translatable="false">1:4681024516:android:c90b9c3661aa0075</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDuJaN0KYA06HnRmYW4qlZDsUfBUbhsll8</string>
+    <string name="google_storage_bucket" translatable="false">driveit-279a7.appspot.com</string>
+    <string name="project_id" translatable="false">driveit-279a7</string>
+</resources>

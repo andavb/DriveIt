@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="avbelj prikoolica.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective3699" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="475.53375"
+     inkscape:cy="780.28851"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:measure-start="623.571,742.857"
+     inkscape:measure-end="609.643,650"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#808080;stroke-width:0.24708538"
+       id="path3954"
+       sodipodi:type="arc"
+       sodipodi:cx="33.339207"
+       sodipodi:cy="-108.27507"
+       sodipodi:rx="2.1362603"
+       sodipodi:ry="1.9544085"
+       sodipodi:start="0.67874274"
+       sodipodi:end="5.6332716"
+       sodipodi:open="true"
+       d="m 35.001992,-107.04806 a 2.1362603,1.9544085 0 0 1 -2.388434,0.61119 2.1362603,1.9544085 0 0 1 -1.41039,-1.86637 2.1362603,1.9544085 0 0 1 1.468608,-1.8284 2.1362603,1.9544085 0 0 1 2.368184,0.67392"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#ffffff;stroke-width:0.25628841"
+       id="path3967"
+       cx="33.230034"
+       cy="-108.25775"
+       rx="1.4115171"
+       ry="1.2773799"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#666666;stroke-width:0.18747266"
+       id="rect3777"
+       width="21.931835"
+       height="36.040146"
+       x="67.886459"
+       y="86.165596"
+       ry="11.001726" />
+    <rect
+       style="fill:#666666;stroke-width:0.18747266"
+       id="rect3777-4"
+       width="21.931835"
+       height="36.040146"
+       x="68.031113"
+       y="124.76563"
+       ry="11.001727" />
+    <rect
+       style="fill:#666666;stroke-width:0.18747266"
+       id="rect3777-3"
+       width="21.931835"
+       height="36.040146"
+       x="126.23944"
+       y="86.590034"
+       ry="11.001727" />
+    <rect
+       style="fill:#666666;stroke-width:0.18747266"
+       id="rect3777-2"
+       width="21.931835"
+       height="36.040146"
+       x="126.23945"
+       y="125.14362"
+       ry="11.001727" />
+    <rect
+       style="fill:#999999;stroke-width:0.24235094"
+       id="rect3857"
+       width="33.93008"
+       height="109.10081"
+       x="91.092262"
+       y="55.607517"
+       ry="3.7767613" />
+    <rect
+       style="fill:#999999;stroke-width:0.26458332"
+       id="rect3862"
+       width="2.2678571"
+       height="0.37797621"
+       x="114.1488"
+       y="134.09225"
+       ry="0.1889881" />
+    <rect
+       style="fill:#808080;stroke-width:0.22259031"
+       id="rect3880"
+       width="2.4054294"
+       height="20.713392"
+       x="107.04144"
+       y="34.942226"
+       ry="0" />
+  </g>
+</svg>

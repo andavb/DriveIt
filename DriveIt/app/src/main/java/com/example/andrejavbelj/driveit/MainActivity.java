@@ -3,7 +3,11 @@ package com.example.andrejavbelj.driveit;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.HandlerThread;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,11 +16,17 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Handler;
+import android.widget.Toolbar;
+
+import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
+
+import de.nitri.gauge.Gauge;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,75 +41,29 @@ public class MainActivity extends AppCompatActivity {
     private InputStream inputStream;
     Thread thread;
     boolean stopThread;
-    Button naprej, nazaj,prestava, connect;
+    Button naprej, nazaj,prestava, connect, camera;
     TextView text;
     String command;
+
+    Gauge gauge;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        gauge = (Gauge) findViewById(R.id.IDgauge);
         naprej = (Button) findViewById(R.id.IDnaprej);
         nazaj =  (Button) findViewById(R.id.IDnazaj);
         prestava =  (Button) findViewById(R.id.IDprestava);
         connect =  (Button) findViewById(R.id.IDconnect);
+        camera =  (Button) findViewById(R.id.IDcamera);
         text =  (TextView) findViewById(R.id.IDTextview);
 
-        naprej.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                command = "1";
-                System.out.println(command);
-                try {
-                    socket.getOutputStream().write(command.getBytes());
-                    System.out.println("dela");
-                }
-                catch (IOException e){
-                    e.printStackTrace();
-                }
-            }
-        });
 
-        nazaj.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                command = "2";
-
-                try {
-                    socket.getOutputStream().write(command.getBytes());
-                }
-                catch (IOException e){
-                    e.printStackTrace();
-                }
-            }
-        });
-
-        prestava.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                command = "3";
-
-                try {
-                    socket.getOutputStream().write(command.getBytes());
-                }
-                catch (IOException e){
-                    e.printStackTrace();
-                }
-            }
-        });
-
-        connect.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (BTinit()){
-                    if(BTconnect()){
-                        beginListenForData();
-                    }
-                }
-            }
-        });
-
+        setOnButtonClickListeners();
     }
 
     void beginListenForData()
@@ -141,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
                                     handler.post(new Runnable() {
                                         public void run() {
                                             text.setText(data);
+                                            float rez = result/(float)3.3;
+                                            gauge.moveToValue(Math.round(rez/5)*5);
                                             if (result > 700){
                                                 //naprej.performClick(); gre naprej
                                             }
@@ -248,13 +214,7 @@ public class MainActivity extends AppCompatActivity {
         return connected;
     }
 
-    @Override
-    protected void onStart()
-    {
-        super.onStart();
-    }
-
-    public static int strToInt( String str ){
+    public static int strToInt(String str ){
         int i = 0;
         int num = 0;
         boolean isNeg = false;
@@ -275,4 +235,70 @@ public class MainActivity extends AppCompatActivity {
             num = -num;
         return num;
     }
+
+
+    public void setOnButtonClickListeners(){
+        naprej.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                command = "1";
+                System.out.println(command);
+                try {
+                    socket.getOutputStream().write(command.getBytes());
+
+                }
+                catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        nazaj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                command = "2";
+
+                try {
+                    socket.getOutputStream().write(command.getBytes());
+                }
+                catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        prestava.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                command = "3";
+
+                try {
+                    socket.getOutputStream().write(command.getBytes());
+                }
+                catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        connect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (BTinit()){
+                    if(BTconnect()){
+                        beginListenForData();
+                    }
+                }
+            }
+        });
+        camera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent opencamera = new Intent(getBaseContext(), CameraSmile.class);
+                startActivity(opencamera);
+            }
+        });
+    }
+
+
 }

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "4681024516",
+    "firebase_url": "https://driveit-279a7.firebaseio.com",
+    "project_id": "driveit-279a7",
+    "storage_bucket": "driveit-279a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4681024516:android:c90b9c3661aa0075",
+        "android_client_info": {
+          "package_name": "com.example.andrejavbelj.driveit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4681024516-vnm66butau4tglpipno85le09oukpgt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuJaN0KYA06HnRmYW4qlZDsUfBUbhsll8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4681024516-vnm66butau4tglpipno85le09oukpgt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

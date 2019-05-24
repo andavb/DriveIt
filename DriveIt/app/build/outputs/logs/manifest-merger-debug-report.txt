@@ -1,0 +1,546 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:2:1-17:12
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1cea62951ce400604e880618f0a46431/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.3.aar/a821e566f5ef3c56c085278f845d9882/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-vision:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-17.0.0.aar/66a5098b3f090cd56fef1de494f84e31/AndroidManifest.xml:2:1-8:12
+MERGED from [com.github.d-max:spots-dialog:1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/spots-dialog-1.1.aar/fc694436c6690170859d0f481d6307b0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:exifinterface:27.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/ff40e0de8c8154e541cdc392ba51f456/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/25c7dbbdf4380beaf44e927ab138ec80/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/38ba0e9d5926350e7a1c2ad4523c9318/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/f643518f184b8b0d4a981893118ff8e1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/ce61237f8141bba9d6308cc5067da01f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:16.1.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-ml-common-16.1.2.aar/4fbdd5ee0050f2653919b0c23b999c41/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/16cb8a996c5f3867f81a69e791e9ea5b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/709e57d1ea3bd495114f9afe140deaf5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/28b36e683b0828f6c515d9d1ddf81f50/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.1.aar/f4e5a7a1d9bec43fa8de9fb0772fd0fc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/edb98773a26112080d3632eeb95e0b4a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/5b6eb9ae5e1a37cfc5480bf767b93e12/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5f3983a98499f0c131b29817e963fcf2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.0.aar/4d85ae82ad2a75c49a9c53234e897dbc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/833c6450cef4068ebc19363502747e84/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5247b5fb42c5214e3e6f6cd0691cc197/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b920c1a7302eb5b5bcea710abb460e32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/974b8ff3b11fd856b1d9833f9dcaae6c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0ff5cb55a860c5082ee684a787def596/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e273994694d7cb43ee2be90497f32334/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6a5af930764913da572147b30aa555a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4632732374dfdbf30062ecbf1d886691/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/87cb18b7d399fa69a266e79b87bcc077/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c8521fd1a2473343199907ccc4ab2d9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/06ad7c01a7b4f159e73276e2db4fc486/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e71d31b678d5df55bf2664ce5db3f619/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a65d1db055a241405d7d75bdb0e3b193/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/9b7a637f2fb6a87bea7aeac2efaca28b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2b8173775d2f77937cf7814db2d2d810/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f8ecc21e937aa495cf1aa294a124be9e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c6a316648e4f3d6e175296648d140302/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3b80add7d6af16c67144744f6fc702c2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/51bbfafce297d5f8da46b2db6463f052/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/605fa05ae3cb15fe8b02ee1415894e89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ba1e2e49bde6db9498fe8fda9c8fc120/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fcb29c0d4de159767e2adcdcfa78bc10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a45d5cdf90560dbced737909303dcd2d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5c32f021ea91c884da52fddfa564bff9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b174d985f49f33937f39dec9b537e949/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.2.aar/510b2d73d8f3ccc344967638e9aa9eb3/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:6:22-71
+application
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:8:5-28:19
+MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:11:5-15:19
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:25:5-20
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1cea62951ce400604e880618f0a46431/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1cea62951ce400604e880618f0a46431/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.3.aar/a821e566f5ef3c56c085278f845d9882/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.3.aar/a821e566f5ef3c56c085278f845d9882/AndroidManifest.xml:7:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/spots-dialog-1.1.aar/fc694436c6690170859d0f481d6307b0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/spots-dialog-1.1.aar/fc694436c6690170859d0f481d6307b0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/38ba0e9d5926350e7a1c2ad4523c9318/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/38ba0e9d5926350e7a1c2ad4523c9318/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/f643518f184b8b0d4a981893118ff8e1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/f643518f184b8b0d4a981893118ff8e1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/ce61237f8141bba9d6308cc5067da01f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/ce61237f8141bba9d6308cc5067da01f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/16cb8a996c5f3867f81a69e791e9ea5b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/16cb8a996c5f3867f81a69e791e9ea5b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/28b36e683b0828f6c515d9d1ddf81f50/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/28b36e683b0828f6c515d9d1ddf81f50/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.1.aar/f4e5a7a1d9bec43fa8de9fb0772fd0fc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.1.aar/f4e5a7a1d9bec43fa8de9fb0772fd0fc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/edb98773a26112080d3632eeb95e0b4a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/edb98773a26112080d3632eeb95e0b4a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/5b6eb9ae5e1a37cfc5480bf767b93e12/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/5b6eb9ae5e1a37cfc5480bf767b93e12/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5f3983a98499f0c131b29817e963fcf2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5f3983a98499f0c131b29817e963fcf2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.0.aar/4d85ae82ad2a75c49a9c53234e897dbc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.0.aar/4d85ae82ad2a75c49a9c53234e897dbc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/833c6450cef4068ebc19363502747e84/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/833c6450cef4068ebc19363502747e84/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2b8173775d2f77937cf7814db2d2d810/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2b8173775d2f77937cf7814db2d2d810/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.2.aar/510b2d73d8f3ccc344967638e9aa9eb3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.2.aar/510b2d73d8f3ccc344967638e9aa9eb3/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.example.andrejavbelj.driveit.MainActivity
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:15:19-47
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:16:13-18:40
+	android:value
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:18:17-37
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:17:17-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.andrejavbelj.driveit.CameraSmile
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:26:9-49
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:26:19-46
+activity#com.example.andrejavbelj.driveit.Login
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:27:9-52
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:27:19-40
+uses-sdk
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:6:5-8:41
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1cea62951ce400604e880618f0a46431/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1cea62951ce400604e880618f0a46431/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.3.aar/a821e566f5ef3c56c085278f845d9882/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.3.aar/a821e566f5ef3c56c085278f845d9882/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-17.0.0.aar/66a5098b3f090cd56fef1de494f84e31/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-ml-vision-17.0.0.aar/66a5098b3f090cd56fef1de494f84e31/AndroidManifest.xml:6:5-44
+MERGED from [com.github.d-max:spots-dialog:1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/spots-dialog-1.1.aar/fc694436c6690170859d0f481d6307b0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.d-max:spots-dialog:1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/spots-dialog-1.1.aar/fc694436c6690170859d0f481d6307b0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/ff40e0de8c8154e541cdc392ba51f456/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/ff40e0de8c8154e541cdc392ba51f456/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/25c7dbbdf4380beaf44e927ab138ec80/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/25c7dbbdf4380beaf44e927ab138ec80/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/38ba0e9d5926350e7a1c2ad4523c9318/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/38ba0e9d5926350e7a1c2ad4523c9318/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/f643518f184b8b0d4a981893118ff8e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-15.0.0.aar/f643518f184b8b0d4a981893118ff8e1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/ce61237f8141bba9d6308cc5067da01f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/ce61237f8141bba9d6308cc5067da01f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-ml-common-16.1.2.aar/4fbdd5ee0050f2653919b0c23b999c41/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-ml-common-16.1.2.aar/4fbdd5ee0050f2653919b0c23b999c41/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/16cb8a996c5f3867f81a69e791e9ea5b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/16cb8a996c5f3867f81a69e791e9ea5b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/709e57d1ea3bd495114f9afe140deaf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/709e57d1ea3bd495114f9afe140deaf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/28b36e683b0828f6c515d9d1ddf81f50/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/28b36e683b0828f6c515d9d1ddf81f50/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.1.aar/f4e5a7a1d9bec43fa8de9fb0772fd0fc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.1.aar/f4e5a7a1d9bec43fa8de9fb0772fd0fc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/edb98773a26112080d3632eeb95e0b4a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/edb98773a26112080d3632eeb95e0b4a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/5b6eb9ae5e1a37cfc5480bf767b93e12/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/5b6eb9ae5e1a37cfc5480bf767b93e12/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5f3983a98499f0c131b29817e963fcf2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5f3983a98499f0c131b29817e963fcf2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.0.aar/4d85ae82ad2a75c49a9c53234e897dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.0.aar/4d85ae82ad2a75c49a9c53234e897dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/833c6450cef4068ebc19363502747e84/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/833c6450cef4068ebc19363502747e84/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5247b5fb42c5214e3e6f6cd0691cc197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5247b5fb42c5214e3e6f6cd0691cc197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b920c1a7302eb5b5bcea710abb460e32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b920c1a7302eb5b5bcea710abb460e32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/974b8ff3b11fd856b1d9833f9dcaae6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/974b8ff3b11fd856b1d9833f9dcaae6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0ff5cb55a860c5082ee684a787def596/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0ff5cb55a860c5082ee684a787def596/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e273994694d7cb43ee2be90497f32334/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e273994694d7cb43ee2be90497f32334/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6a5af930764913da572147b30aa555a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6a5af930764913da572147b30aa555a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4632732374dfdbf30062ecbf1d886691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4632732374dfdbf30062ecbf1d886691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/87cb18b7d399fa69a266e79b87bcc077/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/87cb18b7d399fa69a266e79b87bcc077/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c8521fd1a2473343199907ccc4ab2d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c8521fd1a2473343199907ccc4ab2d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/06ad7c01a7b4f159e73276e2db4fc486/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/06ad7c01a7b4f159e73276e2db4fc486/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e71d31b678d5df55bf2664ce5db3f619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e71d31b678d5df55bf2664ce5db3f619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a65d1db055a241405d7d75bdb0e3b193/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a65d1db055a241405d7d75bdb0e3b193/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/9b7a637f2fb6a87bea7aeac2efaca28b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/9b7a637f2fb6a87bea7aeac2efaca28b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2b8173775d2f77937cf7814db2d2d810/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2b8173775d2f77937cf7814db2d2d810/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f8ecc21e937aa495cf1aa294a124be9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f8ecc21e937aa495cf1aa294a124be9e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c6a316648e4f3d6e175296648d140302/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c6a316648e4f3d6e175296648d140302/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3b80add7d6af16c67144744f6fc702c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3b80add7d6af16c67144744f6fc702c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/51bbfafce297d5f8da46b2db6463f052/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/51bbfafce297d5f8da46b2db6463f052/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/605fa05ae3cb15fe8b02ee1415894e89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/605fa05ae3cb15fe8b02ee1415894e89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ba1e2e49bde6db9498fe8fda9c8fc120/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ba1e2e49bde6db9498fe8fda9c8fc120/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fcb29c0d4de159767e2adcdcfa78bc10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fcb29c0d4de159767e2adcdcfa78bc10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a45d5cdf90560dbced737909303dcd2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/a45d5cdf90560dbced737909303dcd2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5c32f021ea91c884da52fddfa564bff9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5c32f021ea91c884da52fddfa564bff9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b174d985f49f33937f39dec9b537e949/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b174d985f49f33937f39dec9b537e949/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.2.aar/510b2d73d8f3ccc344967638e9aa9eb3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.2.aar/510b2d73d8f3ccc344967638e9aa9eb3/AndroidManifest.xml:5:5-44
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.CAMERA
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:12:22-68
+uses-feature#android.hardware.camera
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:16:9-57
+uses-feature#android.hardware.camera.front
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:19:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:22:9-51
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-30:12 reason: com.wonderkiln.camerakit.core requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.1.aar/b918bce208d4c54c73652e7a8a8f1a51/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:29:9-63
+permission#com.example.andrejavbelj.driveit.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:32:22-76
+uses-permission#com.example.andrejavbelj.driveit.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.andrejavbelj.driveit
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:48:27-58
+category#com.example.andrejavbelj.driveit
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/607b6cfcce4479b4adefdfe37b07f474/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/50fd10f936826a5c2182542cdb4fd9d9/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.1.aar/7a0f1d7419a550f857d7ff3445bc9ae0/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6929fb7118ae5eb3fa826d6a9de83d5b/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7dcd19fbf46a2a9c9884e7dcc0a7facc/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cdc2ff0384624c1fbad7566dfd794a7a/AndroidManifest.xml:27:13-51
