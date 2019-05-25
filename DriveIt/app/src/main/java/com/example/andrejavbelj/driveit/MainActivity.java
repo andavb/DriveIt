@@ -1,5 +1,6 @@
 package com.example.andrejavbelj.driveit;
 
+import android.app.ActionBar;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
@@ -7,7 +8,12 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.HandlerThread;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -46,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     String command;
 
     Gauge gauge;
+    private DrawerLayout drawer;
 
 
 
@@ -61,8 +68,18 @@ public class MainActivity extends AppCompatActivity {
         connect =  (Button) findViewById(R.id.IDconnect);
         text =  (TextView) findViewById(R.id.IDTextview);
 
-
+        setToolbar();
         setOnButtonClickListeners();
+    }
+
+    @Override
+    public void onBackPressed(){
+        if (drawer.isDrawerOpen(GravityCompat.START)){
+            drawer.closeDrawer(GravityCompat.START);
+        }
+        else{
+            super.onBackPressed();
+        }
     }
 
     void beginListenForData()
@@ -236,7 +253,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void setOnButtonClickListeners(){
+    private void setOnButtonClickListeners(){
         naprej.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -292,5 +309,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void setToolbar(){
+        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
+        drawer = findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
+                R.string.navigation_drawer_open,
+                R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+    }
 }

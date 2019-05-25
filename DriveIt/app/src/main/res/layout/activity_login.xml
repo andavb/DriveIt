@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
-    android:background="@drawable/bacground_color">
+    android:background="@drawable/bacground_color"
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_logo" />
+        app:srcCompat="@drawable/logo" />
 
     <EditText
         android:id="@+id/ID_userName"
@@ -27,7 +27,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint= "@string/hintUserName"
+        android:hint="@string/hintUserName"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

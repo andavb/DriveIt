@@ -3,4 +3,6 @@
     <string name="login">Prijava</string>
     <string name="hintUserName">Uporabniško ime</string>
     <string name="hintPassword">Geslo</string>
+    <string name="navigation_drawer_open">Odpri meni</string>
+    <string name="navigation_drawer_close">Zapri meni</string>
 </resources>
