@@ -48,12 +48,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.andrejavbelj.driveit.MainActivity"
-            android:theme="@style/AppTheme.NoActionbar" >
-            <meta-data
-                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-                android:value="face" />
+        <activity android:name="com.example.andrejavbelj.driveit.MainActivity" >
         </activity>
         <activity
             android:name="com.example.andrejavbelj.driveit.CameraSmile"
@@ -64,6 +59,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.andrejavbelj.driveit.GlavniMeni"
+            android:label="@string/title_activity_glavni_meni"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+                android:value="face" />
         </activity>
 
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" >

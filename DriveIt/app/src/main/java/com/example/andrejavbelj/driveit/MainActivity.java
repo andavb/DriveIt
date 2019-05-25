@@ -11,12 +11,15 @@ import android.content.IntentFilter;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.HandlerThread;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -34,7 +37,7 @@ import java.util.UUID;
 
 import de.nitri.gauge.Gauge;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     private final String DEVICE_ADDRESS = "98:D3:37:00:BC:5D";
     private final UUID PORT = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
@@ -52,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
     String command;
 
     Gauge gauge;
-    private DrawerLayout drawer;
-
 
 
     @Override
@@ -68,19 +69,9 @@ public class MainActivity extends AppCompatActivity {
         connect =  (Button) findViewById(R.id.IDconnect);
         text =  (TextView) findViewById(R.id.IDTextview);
 
-        setToolbar();
         setOnButtonClickListeners();
     }
 
-    @Override
-    public void onBackPressed(){
-        if (drawer.isDrawerOpen(GravityCompat.START)){
-            drawer.closeDrawer(GravityCompat.START);
-        }
-        else{
-            super.onBackPressed();
-        }
-    }
 
     void beginListenForData()
     {
@@ -309,15 +300,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void setToolbar(){
-        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        drawer = findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
-                R.string.navigation_drawer_open,
-                R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
-    }
+
 }

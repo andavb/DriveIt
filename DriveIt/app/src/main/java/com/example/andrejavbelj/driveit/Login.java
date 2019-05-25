@@ -58,7 +58,7 @@ public class Login extends AppCompatActivity {
                 if(uprIme.getText().toString().equals("") && geslo.getText().toString().equals("")){
 
                     dialog.dismiss();
-                    Intent i = new Intent(getBaseContext(), MainActivity.class);
+                    Intent i = new Intent(getBaseContext(), GlavniMeni.class);
                     startActivity(i);
 
                 }
