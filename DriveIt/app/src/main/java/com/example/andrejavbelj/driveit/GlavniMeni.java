@@ -32,6 +32,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 import de.nitri.gauge.Gauge;
 
@@ -90,13 +91,15 @@ public class GlavniMeni extends AppCompatActivity
             inputStream = null;
             outputStream = null;
             stopThread = false;
-            con = false;
-
-           if(BTconnect()) {
-               con = true;
-               fab.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
-               beginListenForData();
-           }
+            con = savedInstanceState.getBoolean("con", false);
+            System.out.println(con);
+            if (con == true){
+                if(BTconnect()) {
+                    con = true;
+                    fab.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
+                    beginListenForData();
+                }
+            }
 
          }
 
@@ -104,10 +107,13 @@ public class GlavniMeni extends AppCompatActivity
 
     }
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
+
         stopThread = true;
+
         try{
             socket.close();
         }
@@ -296,9 +302,24 @@ public class GlavniMeni extends AppCompatActivity
                                             text.setText(data);
                                             float rez = result/(float)3.3;
                                             gauge.moveToValue(Math.round(rez/5)*5);
-                                            if (result > 700){
+                                            if (rez >= 1190 && rez <= 1210){
+                                                automatic.setText("R");
                                                 //naprej.performClick(); gre naprej
                                             }
+                                            else if (rez >= 1290 && rez <= 1310){
+                                                automatic.setText("D");
+                                                //naprej.performClick(); gre naprej
+                                            }
+                                            else if(rez >= 1390 && rez <= 1410){
+                                                automatic.setText("N");
+                                            }
+                                            else if(rez >= 1490 && rez <= 1510){
+                                                prestava.setText("-");
+                                            }
+                                            else if(rez >= 1590 && rez <= 1610){
+                                                prestava.setText("+");
+                                            }
+
                                         }
                                     });
                                 } else {
@@ -381,7 +402,7 @@ public class GlavniMeni extends AppCompatActivity
                 System.out.println(command);
                 try {
                     socket.getOutputStream().write(command.getBytes());
-                    automatic.setText("R");
+                    //automatic.setText("R");
                 }
                 catch (IOException e){
                     e.printStackTrace();
@@ -396,7 +417,7 @@ public class GlavniMeni extends AppCompatActivity
 
                 try {
                     socket.getOutputStream().write(command.getBytes());
-                    automatic.setText("D");
+                    //automatic.setText("D");
 
                 }
                 catch (IOException e){
@@ -449,6 +470,7 @@ public class GlavniMeni extends AppCompatActivity
         String deviceB = json.toJson(device, BluetoothDevice.class);
 
         outState.putString("device", deviceB);
+        outState.putBoolean("con", con);
 
 
     }

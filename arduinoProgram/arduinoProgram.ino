@@ -50,31 +50,44 @@ void loop() {
       if(data == '1'){
         if(nazajVklopljen == 1){
           digitalWrite(nazaj, HIGH);
+          
+          Serial1.println(4630);
           nazajVklopljen = 0;
         }
         else{
           digitalWrite(naprej, LOW);
+          
+          Serial1.println(3960);
           naprejVklopljen = 1;
         }
         
       }
       else if(data == '2'){
         if(naprejVklopljen == 1){
+          
+          Serial1.println(4630);
           digitalWrite(naprej, HIGH);
           naprejVklopljen = 0;
         }
         else{
           digitalWrite(nazaj, LOW);
+ 
+          Serial1.println(4290);
           nazajVklopljen = 1;
         }
       }
       else if(data == '3'){
         if(prestavaVKL == 0){
           digitalWrite(prestava, LOW);
+          
+          Serial1.println(4950);
           prestavaVKL = 1;
         }
         else{
           digitalWrite(prestava, HIGH);
+
+          
+          Serial1.println(5280);
           prestavaVKL=0;
         }
       }
@@ -99,5 +112,5 @@ void loop() {
       digitalWrite(nazaj, LOW);
     }
   }
-  delay(300);
+  delay(200);
 }

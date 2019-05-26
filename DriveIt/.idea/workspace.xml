@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="System" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
@@ -34,57 +35,147 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GlavniMeni.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GlavniMeni.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/GlavniMeni.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="423" column="34" lean-forward="true" selection-start-line="423" selection-start-column="34" selection-end-line="423" selection-end-column="34" />
+            <state relative-caret-position="248">
+              <caret line="315" column="80" lean-forward="false" selection-start-line="315" selection-start-column="80" selection-end-line="315" selection-end-column="80" />
               <folding>
-                <element signature="e#2288#2319#0" expanded="true" />
-                <element signature="e#2321#2353#0" expanded="true" />
+                <element signature="e#2326#2357#0" expanded="true" />
+                <element signature="e#2359#2391#0" expanded="true" />
                 <element signature="method#onBackPressed#0;class#GlavniMeni#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#GlavniMeni#0" expanded="false" />
                 <element signature="method#onOptionsItemSelected#0;class#GlavniMeni#0" expanded="false" />
-                <element signature="e#4922#4965#0" expanded="false" />
+                <element signature="e#5106#5149#0" expanded="false" />
                 <element signature="method#onNavigationItemSelected#0;class#GlavniMeni#0" expanded="false" />
                 <element signature="method#BTinit#0;class#GlavniMeni#0" expanded="false" />
-                <element signature="e#5957#6009#0" expanded="true" />
-                <element signature="e#6162#6211#0" expanded="true" />
-                <element signature="e#6444#6493#0" expanded="true" />
-                <element signature="e#7389#7438#0" expanded="true" />
-                <element signature="e#7634#7676#0" expanded="true" />
-                <element signature="method#beginListenForData#0;class#GlavniMeni#0" expanded="false" />
-                <element signature="e#8289#10683#0" expanded="true" />
-                <element signature="e#9754#10326#0" expanded="true" />
-                <element signature="e#10325#10326#0" expanded="true" />
-                <element signature="e#10682#10683#0" expanded="true" />
+                <element signature="e#6141#6193#0" expanded="true" />
+                <element signature="e#6346#6395#0" expanded="true" />
+                <element signature="e#6628#6677#0" expanded="true" />
+                <element signature="e#7573#7622#0" expanded="true" />
+                <element signature="e#7818#7860#0" expanded="true" />
+                <element signature="e#8473#11833#0" expanded="true" />
+                <element signature="e#9938#11476#0" expanded="true" />
+                <element signature="e#11475#11476#0" expanded="true" />
+                <element signature="e#11832#11833#0" expanded="true" />
                 <element signature="method#strToInt#0;class#GlavniMeni#0" expanded="false" />
                 <element signature="method#onActivityResult#0;class#GlavniMeni#0" expanded="false" />
-                <element signature="e#12560#13009#0" expanded="true" />
-                <element signature="e#13008#13009#0" expanded="true" />
-                <element signature="e#13046#13452#0" expanded="true" />
-                <element signature="e#13451#13452#0" expanded="true" />
-                <element signature="e#13492#13853#0" expanded="true" />
-                <element signature="e#13852#13853#0" expanded="true" />
-                <element signature="e#13887#14667#0" expanded="true" />
-                <element signature="e#14078#14120#0" expanded="true" />
-                <element signature="e#14550#14595#0" expanded="true" />
-                <element signature="e#14666#14667#0" expanded="true" />
+                <element signature="e#13710#14161#0" expanded="true" />
+                <element signature="e#14160#14161#0" expanded="true" />
+                <element signature="e#14198#14606#0" expanded="true" />
+                <element signature="e#14605#14606#0" expanded="true" />
+                <element signature="e#14646#15007#0" expanded="true" />
+                <element signature="e#15006#15007#0" expanded="true" />
+                <element signature="e#15041#15821#0" expanded="true" />
+                <element signature="e#15232#15274#0" expanded="true" />
+                <element signature="e#15704#15749#0" expanded="true" />
+                <element signature="e#15820#15821#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraSmile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/CameraSmile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-              <folding>
-                <element signature="method#onEvent#0;class#2918:3632" expanded="false" />
-                <element signature="method#onError#0;class#2918:3632" expanded="false" />
-              </folding>
+      <file leaf-file-name="activity_glavni_meni.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_glavni_meni.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+              <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_camera_smile.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_smile.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_bar_glavni_meni.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_glavni_meni.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav_header_glavni_meni.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_glavni_meni.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_glavni_meni.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_glavni_meni.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_glavni_meni.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/content_glavni_meni.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -109,6 +200,7 @@
       <find>ID_automatic</find>
       <find>buffer</find>
       <find>socket</find>
+      <find>con</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2187,13 +2279,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_glavni_meni.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/content_glavni_meni.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_glavni_meni.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/Bluetooth/BluetoothHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/Bluetooth/BluetoothState.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/CameraSmile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_glavni_meni.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/content_glavni_meni.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/GlavniMeni.java" />
       </list>
     </option>
@@ -2250,6 +2342,12 @@
               <item name="DriveIt" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="DriveIt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="DriveIt" type="1abcf292:AndroidViewProjectNode" />
@@ -2501,24 +2599,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-334" width="1280" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.69224554" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.503231" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4424581" sideWeight="0.1187399" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35418993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20223464" sideWeight="0.49676898" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.49353796" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4424581" sideWeight="0.8812601" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22681564" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22681564" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2532,7 +2632,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24603175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2545,17 +2644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/button_green.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_oval.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2630,17 +2718,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_activity_main.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_activity_main.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_menu.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_menu.xml" />
@@ -2685,33 +2762,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_smile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="835">
           <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_glavni_meni.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/MainActivity.java">
@@ -2748,17 +2803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_glavni_meni.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/DeviceList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -2778,39 +2822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/content_glavni_meni.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_glavni_meni.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_glavni_meni.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2825,17 +2836,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/Bluetooth/BluetoothHandler.java">
@@ -2882,52 +2882,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/GlavniMeni.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/CameraSmile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="423" column="34" lean-forward="true" selection-start-line="423" selection-start-column="34" selection-end-line="423" selection-end-column="34" />
+        <state relative-caret-position="92">
+          <caret line="148" column="79" lean-forward="false" selection-start-line="148" selection-start-column="79" selection-end-line="148" selection-end-column="79" />
           <folding>
-            <element signature="e#2288#2319#0" expanded="true" />
-            <element signature="e#2321#2353#0" expanded="true" />
-            <element signature="method#onBackPressed#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="e#4922#4965#0" expanded="false" />
-            <element signature="method#onNavigationItemSelected#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="method#BTinit#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="e#5957#6009#0" expanded="true" />
-            <element signature="e#6162#6211#0" expanded="true" />
-            <element signature="e#6444#6493#0" expanded="true" />
-            <element signature="e#7389#7438#0" expanded="true" />
-            <element signature="e#7634#7676#0" expanded="true" />
-            <element signature="method#beginListenForData#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="e#8289#10683#0" expanded="true" />
-            <element signature="e#9754#10326#0" expanded="true" />
-            <element signature="e#10325#10326#0" expanded="true" />
-            <element signature="e#10682#10683#0" expanded="true" />
-            <element signature="method#strToInt#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#GlavniMeni#0" expanded="false" />
-            <element signature="e#12560#13009#0" expanded="true" />
-            <element signature="e#13008#13009#0" expanded="true" />
-            <element signature="e#13046#13452#0" expanded="true" />
-            <element signature="e#13451#13452#0" expanded="true" />
-            <element signature="e#13492#13853#0" expanded="true" />
-            <element signature="e#13852#13853#0" expanded="true" />
-            <element signature="e#13887#14667#0" expanded="true" />
-            <element signature="e#14078#14120#0" expanded="true" />
-            <element signature="e#14550#14595#0" expanded="true" />
-            <element signature="e#14666#14667#0" expanded="true" />
+            <element signature="method#onEvent#0;class#2918:3632" expanded="false" />
+            <element signature="method#onError#0;class#2918:3632" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/CameraSmile.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_glavni_meni.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/content_glavni_meni.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_glavni_meni.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_smile.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_glavni_meni.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_glavni_meni.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/java/io/OutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/andrejavbelj/driveit/GlavniMeni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="315" column="80" lean-forward="false" selection-start-line="315" selection-start-column="80" selection-end-line="315" selection-end-column="80" />
           <folding>
-            <element signature="method#onEvent#0;class#2918:3632" expanded="false" />
-            <element signature="method#onError#0;class#2918:3632" expanded="false" />
+            <element signature="e#2326#2357#0" expanded="true" />
+            <element signature="e#2359#2391#0" expanded="true" />
+            <element signature="method#onBackPressed#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="e#5106#5149#0" expanded="false" />
+            <element signature="method#onNavigationItemSelected#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="method#BTinit#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="e#6141#6193#0" expanded="true" />
+            <element signature="e#6346#6395#0" expanded="true" />
+            <element signature="e#6628#6677#0" expanded="true" />
+            <element signature="e#7573#7622#0" expanded="true" />
+            <element signature="e#7818#7860#0" expanded="true" />
+            <element signature="e#8473#11833#0" expanded="true" />
+            <element signature="e#9938#11476#0" expanded="true" />
+            <element signature="e#11475#11476#0" expanded="true" />
+            <element signature="e#11832#11833#0" expanded="true" />
+            <element signature="method#strToInt#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#GlavniMeni#0" expanded="false" />
+            <element signature="e#13710#14161#0" expanded="true" />
+            <element signature="e#14160#14161#0" expanded="true" />
+            <element signature="e#14198#14606#0" expanded="true" />
+            <element signature="e#14605#14606#0" expanded="true" />
+            <element signature="e#14646#15007#0" expanded="true" />
+            <element signature="e#15006#15007#0" expanded="true" />
+            <element signature="e#15041#15821#0" expanded="true" />
+            <element signature="e#15232#15274#0" expanded="true" />
+            <element signature="e#15704#15749#0" expanded="true" />
+            <element signature="e#15820#15821#0" expanded="true" />
           </folding>
         </state>
       </provider>

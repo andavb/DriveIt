@@ -11,8 +11,8 @@
 
     <TextView
         android:id="@+id/IDTextview"
-        android:layout_width="62dp"
-        android:layout_height="52dp"
+        android:layout_width="91dp"
+        android:layout_height="51dp"
         android:layout_marginTop="8dp"
         android:text="0"
         android:textAlignment="center"
