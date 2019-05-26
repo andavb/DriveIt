@@ -39,7 +39,7 @@ import de.nitri.gauge.Gauge;
 
 public class MainActivity extends AppCompatActivity{
 
-    private final String DEVICE_ADDRESS = "98:D3:37:00:BC:5D";
+    /*private final String DEVICE_ADDRESS = "98:D3:37:00:BC:5D";
     private final UUID PORT = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
 
     private OutputStream ouputStream;
@@ -66,11 +66,11 @@ public class MainActivity extends AppCompatActivity{
         naprej = (Button) findViewById(R.id.IDnaprej);
         nazaj =  (Button) findViewById(R.id.IDnazaj);
         prestava =  (Button) findViewById(R.id.IDprestava);
-        connect =  (Button) findViewById(R.id.IDconnect);
         text =  (TextView) findViewById(R.id.IDTextview);
 
         setOnButtonClickListeners();
     }
+
 
 
     void beginListenForData()
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity{
                                     };*/
 
 
-                                    handler.post(new Runnable() {
+                                   /* handler.post(new Runnable() {
                                         public void run() {
                                             text.setText(data);
                                             float rez = result/(float)3.3;
@@ -288,18 +288,8 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
-        connect.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (BTinit()){
-                    if(BTconnect()){
-                        beginListenForData();
-                    }
-                }
-            }
-        });
     }
-
+*/
 
 
 }

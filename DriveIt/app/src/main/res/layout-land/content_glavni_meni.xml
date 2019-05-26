@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GlavniMeni"
+    tools:showIn="@layout/app_bar_glavni_meni">
+
+
+    <TextView
+        android:id="@+id/IDTextview"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/IDgauge"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        gauge:initialValue="0"
+        gauge:maxValue="300"
+        gauge:minValue="0"
+        gauge:totalNicks="120"
+        gauge:valuePerNick="3" />
+
+
+    <ImageView
+        android:id="@+id/IDnaprej"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/IDnazaj"
+        app:layout_constraintStart_toEndOf="@+id/ID_automatic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        gauge:srcCompat="@drawable/ic_keyboard_arrow_up_black_24dp" />
+
+    <ImageView
+        android:id="@+id/IDnazaj"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ID_automatic"
+        app:layout_constraintTop_toBottomOf="@+id/IDnaprej"
+        gauge:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <TextView
+        android:id="@+id/IDprestava"
+        android:layout_width="100dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/IDnaprej"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+
+    <TextView
+        android:id="@+id/ID_automatic"
+        android:layout_width="100dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="N"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/IDgauge"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

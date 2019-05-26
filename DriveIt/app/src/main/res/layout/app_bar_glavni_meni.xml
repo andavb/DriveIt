@@ -22,7 +22,9 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_glavni_meni" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_glavni_meni" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -30,6 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="right|bottom"
+        app:srcCompat="@drawable/ic_bluetooth_black_24dp" />
 
 </android.support.design.widget.CoordinatorLayout>

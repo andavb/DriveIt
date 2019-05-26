@@ -12,9 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
         <activity
             android:name=".CameraSmile"
             android:parentActivityName=".Login" />
@@ -27,7 +24,7 @@
         </activity>
         <activity
             android:name=".GlavniMeni"
-            android:label="@string/title_activity_glavni_meni"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"

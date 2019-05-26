@@ -22,16 +22,12 @@
             android:title="Tools" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Bluetooth">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:icon="@drawable/ic_bluetooth_black_24dp"
+                android:title="Naprave" />
         </menu>
     </item>
 

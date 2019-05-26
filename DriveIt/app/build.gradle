@@ -28,6 +28,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation 'com.github.Pygmalion69:Gauge:1.5'
+    implementation 'com.google.code.gson:gson:2.8.5'
 
 
     implementation 'com.wonderkiln:camerakit:0.13.1'

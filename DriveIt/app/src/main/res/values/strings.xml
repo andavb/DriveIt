@@ -12,4 +12,11 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_menu">Menu</string>
     <string name="title_activity_glavni_meni">GlavniMeni</string>
+    <string name="naprava_nepodpira_b">Naprava ne podpira bluetoorh povezave!</string>
+    <string name="prizgi_bluetooth">Prižgite bluetooth</string>
+    <string name="povezi_bluetooth">Povežite napravo</string>
+    <string name="uspesno_povezano">Uspešno povezano</string>
+    <string name="ni_uspelo">Povezava ni uspela!</string>
+    <string name="povezujem">Povezujem...</string>
+    <string name="ze_povezavno">Povezava je že vzpostavljena</string>
 </resources>

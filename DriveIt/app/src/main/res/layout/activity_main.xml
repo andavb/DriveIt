@@ -8,16 +8,14 @@
         android:layout_height="match_parent"
         xmlns:gauge="http://schemas.android.com/apk/res-auto"
         tools:context=".MainActivity">
-        
+
         <de.nitri.gauge.Gauge
             android:id="@+id/IDgauge"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/IDTextview"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -26,71 +24,59 @@
             gauge:minValue="0"
             gauge:totalNicks="120"
             gauge:valuePerNick="3" />
-    
-        <Button
-            android:id="@+id/IDnaprej"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:text="Naprej"
-            app:layout_constraintBottom_toTopOf="@+id/IDnazaj"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    
-        <Button
-            android:id="@+id/IDnazaj"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:text="NAZAJ"
-            app:layout_constraintBottom_toTopOf="@+id/IDconnect"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintStart_toStartOf="parent" />
-    
-        <Button
-            android:id="@+id/IDconnect"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:text="Connect"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    
-        <Button
-            android:id="@+id/IDprestava"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:text="Prestava"
-            app:layout_constraintBottom_toTopOf="@+id/IDconnect"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/IDnaprej"
-            app:layout_constraintTop_toBottomOf="@+id/IDTextview" />
-    
-        <TextView
-            android:id="@+id/IDTextview"
-            android:layout_width="169dp"
-            android:layout_height="70dp"
-            android:layout_marginBottom="8dp"
-            android:text="0"
-            android:textAlignment="center"
-            android:textSize="40dp"
-            app:layout_constraintBottom_toTopOf="@+id/IDnaprej"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
-            app:layout_constraintStart_toStartOf="parent" />
-    
-    
-    
-    </android.support.constraint.ConstraintLayout>
+
+
+
+    <TextView
+        android:id="@+id/IDTextview"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IDnaprej"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IDgauge"
+        gauge:srcCompat="@drawable/ic_keyboard_arrow_up_black_24dp" />
+
+    <ImageView
+        android:id="@+id/IDnazaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IDnaprej"
+        gauge:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <TextView
+        android:id="@+id/IDprestava"
+        android:layout_width="100dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/IDnazaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IDnaprej" />
+
+
+</android.support.constraint.ConstraintLayout>

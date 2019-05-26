@@ -157,7 +157,7 @@ public class CameraSmile extends AppCompatActivity {
 
                 if (nasmeh > 0.2){
                     Toast.makeText(CameraSmile.this, "Bravo odklenili ste z nasmehom!", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(getBaseContext(), MainActivity.class);
+                    Intent i = new Intent(getBaseContext(), GlavniMeni.class);
                     startActivity(i);
                 }
                 else{

@@ -4,8 +4,11 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.PersistableBundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -18,8 +21,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.gson.Gson;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -35,35 +41,25 @@ public class GlavniMeni extends AppCompatActivity
     private final String DEVICE_ADDRESS = "98:D3:37:00:BC:5D";
     private final UUID PORT = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
 
-    private OutputStream ouputStream;
-    byte buffer[];
+    private byte buffer[];
     private BluetoothDevice device;
     private BluetoothSocket socket;
     private OutputStream outputStream;
     private InputStream inputStream;
-    Thread thread;
-    boolean stopThread;
-    Button naprej, nazaj,prestava, connect;
-    TextView text;
-    String command;
-
-    Gauge gauge;
+    private boolean stopThread, con;
+    private ImageView naprej, nazaj;
+    private TextView text, prestava, automatic;
+    private String command;
+    private Gauge gauge;
+    private FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glavni_meni);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -74,14 +70,50 @@ public class GlavniMeni extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        fab = (FloatingActionButton) findViewById(R.id.fab);
         gauge = (Gauge) findViewById(R.id.IDgauge);
-        naprej = (Button) findViewById(R.id.IDnaprej);
-        nazaj =  (Button) findViewById(R.id.IDnazaj);
-        prestava =  (Button) findViewById(R.id.IDprestava);
-        connect =  (Button) findViewById(R.id.IDconnect);
+        naprej = (ImageView) findViewById(R.id.IDnaprej);
+        nazaj =  (ImageView) findViewById(R.id.IDnazaj);
+        prestava =  (TextView) findViewById(R.id.IDprestava);
         text =  (TextView) findViewById(R.id.IDTextview);
+        automatic =  (TextView) findViewById(R.id.ID_automatic);
+
+        if (savedInstanceState != null){
+
+           String sock = savedInstanceState.getString("device", "");
+           Gson json = new Gson();
+
+           device =(BluetoothDevice) json.fromJson(sock, BluetoothDevice.class);
+
+
+            socket = null;
+            inputStream = null;
+            outputStream = null;
+            stopThread = false;
+            con = false;
+
+           if(BTconnect()) {
+               con = true;
+               fab.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
+               beginListenForData();
+           }
+
+         }
 
         setOnButtonClickListeners();
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        stopThread = true;
+        try{
+            socket.close();
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
     }
 
     @Override
@@ -131,9 +163,8 @@ public class GlavniMeni extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+            Intent bluetoothPicker = new Intent("android.bluetooth.devicepicker.action.LAUNCH");
+            startActivity(bluetoothPicker);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -141,6 +172,88 @@ public class GlavniMeni extends AppCompatActivity
         return true;
     }
 
+    public boolean BTinit()
+    {
+        boolean found = false;
+
+        BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        if(bluetoothAdapter == null) //Ali naprava podpira bluetooth
+        {
+            Toast.makeText(this, getResources().getText(R.string.naprava_nepodpira_b), Toast.LENGTH_SHORT).show();
+        }
+
+        if(!bluetoothAdapter.isEnabled()) //Ali je bluetooth prizgan
+        {
+            Toast.makeText(this, getResources().getText(R.string.prizgi_bluetooth), Toast.LENGTH_SHORT).show();
+        }
+
+        Set<BluetoothDevice> bondedDevices = bluetoothAdapter.getBondedDevices();
+
+        if(bondedDevices.isEmpty()) //Pogleda za povezane naprave
+        {
+            Toast.makeText(this, getResources().getText(R.string.povezi_bluetooth), Toast.LENGTH_SHORT).show();
+
+            Intent pairIntent = new Intent(android.provider.Settings.ACTION_BLUETOOTH_SETTINGS);
+            startActivityForResult(pairIntent, 0);
+        }
+        else
+        {
+            for(BluetoothDevice iterator : bondedDevices)
+            {
+                if(iterator.getAddress().equals(DEVICE_ADDRESS))
+                {
+                    device = iterator;
+                    found = true;
+                    break;
+                }
+            }
+        }
+
+        return found;
+    }
+
+    public boolean BTconnect()
+    {
+        boolean connected = true;
+
+        try
+        {
+            System.out.println(socket);
+            System.out.println(device);
+
+            socket = device.createRfcommSocketToServiceRecord(PORT); //socket za output povezavo
+
+            socket.connect();
+
+            Toast.makeText(this,
+                    getResources().getText(R.string.uspesno_povezano), Toast.LENGTH_LONG).show();
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+            connected = false;
+
+            Toast.makeText(this,
+                    getResources().getText(R.string.ni_uspelo), Toast.LENGTH_LONG).show();
+        }
+
+        if(connected)
+        {
+            try
+            {
+                outputStream = socket.getOutputStream();
+                inputStream = socket.getInputStream();
+                con = true;
+            }
+            catch(IOException e)
+            {
+                e.printStackTrace();
+            }
+        }
+
+        return connected;
+    }
 
     void beginListenForData()
     {
@@ -203,92 +316,6 @@ public class GlavniMeni extends AppCompatActivity
         thread.start();
     }
 
-    public boolean BTinit()
-    {
-        boolean found = false;
-
-        BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-
-        if(bluetoothAdapter == null) //Checks if the device supports bluetooth
-        {
-            Toast.makeText(getApplicationContext(), "Device doesn't support bluetooth", Toast.LENGTH_SHORT).show();
-        }
-
-        if(!bluetoothAdapter.isEnabled()) //Checks if bluetooth is enabled. If not, the program will ask permission from the user to enable it
-        {
-            Intent enableAdapter = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            startActivityForResult(enableAdapter,0);
-
-            try
-            {
-                Thread.sleep(1000);
-            }
-            catch(InterruptedException e)
-            {
-                e.printStackTrace();
-            }
-        }
-
-        Set<BluetoothDevice> bondedDevices = bluetoothAdapter.getBondedDevices();
-
-        if(bondedDevices.isEmpty()) //Checks for paired bluetooth devices
-        {
-            Toast.makeText(getApplicationContext(), "Please pair the device first", Toast.LENGTH_SHORT).show();
-        }
-        else
-        {
-            for(BluetoothDevice iterator : bondedDevices)
-            {
-                if(iterator.getAddress().equals(DEVICE_ADDRESS))
-                {
-                    device = iterator;
-                    found = true;
-                    break;
-                }
-            }
-        }
-
-        return found;
-    }
-
-    public boolean BTconnect()
-    {
-        boolean connected = true;
-
-        try
-        {
-            socket = device.createRfcommSocketToServiceRecord(PORT); //Creates a socket to handle the outgoing connection
-            socket.connect();
-
-            Toast.makeText(getApplicationContext(),
-                    "Connection to bluetooth device successful", Toast.LENGTH_LONG).show();
-        }
-        catch(IOException e)
-        {
-            e.printStackTrace();
-            connected = false;
-        }
-
-        if(connected)
-        {
-            try
-            {
-                outputStream = socket.getOutputStream(); //gets the output stream of the socket
-                inputStream = socket.getInputStream(); //gets the output stream of the socket
-                System.out.println("duububububububububbububub");
-                System.out.println("duububububububububbububub");
-                System.out.println("duububububububububbububub");
-                System.out.println("duububububububububbububub");
-                System.out.println("duububububububububbububub");
-            }
-            catch(IOException e)
-            {
-                e.printStackTrace();
-            }
-        }
-
-        return connected;
-    }
 
     public static int strToInt(String str ){
         int i = 0;
@@ -312,6 +339,39 @@ public class GlavniMeni extends AppCompatActivity
         return num;
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        Set<BluetoothDevice> bondedDevices = bluetoothAdapter.getBondedDevices();
+
+        if(bondedDevices.isEmpty()) //Checks for paired bluetooth devices
+        {
+            Toast.makeText(getApplicationContext(), "Please pair the device first", Toast.LENGTH_SHORT).show();
+
+            Intent i = new Intent(android.provider.Settings.ACTION_BLUETOOTH_SETTINGS);
+            startActivityForResult(i, 0);
+        }
+        else
+        {
+            for(BluetoothDevice iterator : bondedDevices)
+            {
+                if(iterator.getAddress().equals(DEVICE_ADDRESS))
+                {
+                    device = iterator;
+                    if(BTconnect()){
+                        fab.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
+                        beginListenForData();
+                    }
+                    break;
+                }
+            }
+        }
+
+    }
+
 
     private void setOnButtonClickListeners(){
         naprej.setOnClickListener(new View.OnClickListener() {
@@ -321,7 +381,7 @@ public class GlavniMeni extends AppCompatActivity
                 System.out.println(command);
                 try {
                     socket.getOutputStream().write(command.getBytes());
-
+                    automatic.setText("R");
                 }
                 catch (IOException e){
                     e.printStackTrace();
@@ -336,6 +396,8 @@ public class GlavniMeni extends AppCompatActivity
 
                 try {
                     socket.getOutputStream().write(command.getBytes());
+                    automatic.setText("D");
+
                 }
                 catch (IOException e){
                     e.printStackTrace();
@@ -356,17 +418,39 @@ public class GlavniMeni extends AppCompatActivity
                 }
             }
         });
-
-        connect.setOnClickListener(new View.OnClickListener() {
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (BTinit()){
-                    if(BTconnect()){
-                        beginListenForData();
+                if (con == false){
+                    Toast.makeText(getApplicationContext(), getResources().getText(R.string.povezujem), Toast.LENGTH_SHORT).show();
+                    if (BTinit()){
+                        if(BTconnect()){
+                            fab.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
+                            beginListenForData();
+                        }
                     }
                 }
+                else{
+                    Toast.makeText(getApplicationContext(), getResources().getText(R.string.ze_povezavno), Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        Gson json = new Gson();
+        //String j = json.toJson(socket, BluetoothSocket.class);
+
+        String deviceB = json.toJson(device, BluetoothDevice.class);
+
+        outState.putString("device", deviceB);
+
+
     }
 
 }
