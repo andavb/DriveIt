@@ -1,4 +1,4 @@
-#Sun May 26 11:43:33 CEST 2019
+#Mon May 27 15:57:08 CEST 2019
 base.0=/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex

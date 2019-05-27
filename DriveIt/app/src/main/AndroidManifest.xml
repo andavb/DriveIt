@@ -30,6 +30,8 @@
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"
                 android:value="face" />
         </activity>
+        <activity android:name=".Registracija"
+            android:parentActivityName=".Login"></activity>
     </application>
 
 </manifest>

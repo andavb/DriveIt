@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">DriveIt</string>
     <string name="login">Prijava</string>
+    <string name="register">Registracija</string>
+    <string name="registriraj">Registriraj</string>
     <string name="hintUserName">Uporabniško ime</string>
     <string name="hintPassword">Geslo</string>
     <string name="navigation_drawer_open">Odpri meni</string>

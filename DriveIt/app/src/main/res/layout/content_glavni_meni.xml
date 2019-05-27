@@ -7,6 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".GlavniMeni"
     xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bacground_color"
     tools:showIn="@layout/app_bar_glavni_meni">
 
     <TextView
@@ -34,7 +35,8 @@
         gauge:maxValue="300"
         gauge:minValue="0"
         gauge:totalNicks="120"
-        gauge:valuePerNick="3" />
+        gauge:valuePerNick="3"
+        app:lowerText="bar"/>
 
 
 

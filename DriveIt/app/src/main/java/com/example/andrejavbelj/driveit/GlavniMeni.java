@@ -35,6 +35,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 import de.nitri.gauge.Gauge;
+import dmax.dialog.SpotsDialog;
 
 public class GlavniMeni extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -220,6 +221,7 @@ public class GlavniMeni extends AppCompatActivity
     }
 
     public boolean BTconnect()
+
     {
         boolean connected = true;
 
@@ -399,13 +401,17 @@ public class GlavniMeni extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 command = "1";
-                System.out.println(command);
-                try {
-                    socket.getOutputStream().write(command.getBytes());
-                    //automatic.setText("R");
+
+                if (con != false){
+                    try {
+                        socket.getOutputStream().write(command.getBytes());
+                    }
+                    catch (IOException e){
+                        e.printStackTrace();
+                    }
                 }
-                catch (IOException e){
-                    e.printStackTrace();
+                else{
+                    Toast.makeText(getApplicationContext(), getResources().getText(R.string.povezi_bluetooth), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -415,13 +421,16 @@ public class GlavniMeni extends AppCompatActivity
             public void onClick(View view) {
                 command = "2";
 
-                try {
-                    socket.getOutputStream().write(command.getBytes());
-                    //automatic.setText("D");
+                if (con != false) {
+                    try {
+                        socket.getOutputStream().write(command.getBytes());
 
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
-                catch (IOException e){
-                    e.printStackTrace();
+                else{
+                    Toast.makeText(getApplicationContext(), getResources().getText(R.string.povezi_bluetooth), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -430,22 +439,28 @@ public class GlavniMeni extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 command = "3";
-
-                try {
-                    socket.getOutputStream().write(command.getBytes());
+                if (con != false){
+                    try {
+                        socket.getOutputStream().write(command.getBytes());
+                    }
+                    catch (IOException e){
+                        e.printStackTrace();
+                    }
                 }
-                catch (IOException e){
-                    e.printStackTrace();
+                else{
+                    Toast.makeText(getApplicationContext(), getResources().getText(R.string.povezi_bluetooth), Toast.LENGTH_SHORT).show();
                 }
             }
         });
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 if (con == false){
                     Toast.makeText(getApplicationContext(), getResources().getText(R.string.povezujem), Toast.LENGTH_SHORT).show();
                     if (BTinit()){
                         if(BTconnect()){
+
                             fab.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.colorPrimary)));
                             beginListenForData();
                         }
@@ -454,6 +469,7 @@ public class GlavniMeni extends AppCompatActivity
                 else{
                     Toast.makeText(getApplicationContext(), getResources().getText(R.string.ze_povezavno), Toast.LENGTH_SHORT).show();
                 }
+
 
             }
         });

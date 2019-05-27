@@ -35,10 +35,15 @@ void loop() {
 
   if(senzorvalue > 800 && prestavaVKL == 0){
     digitalWrite(prestava, LOW);
+    
+    Serial1.println(4950);
     prestavaVKL = 1;
   }
   else if(senzorvalue < 300 && prestavaVKL == 1){
     digitalWrite(prestava, HIGH);
+
+    
+    Serial1.println(5280);
     prestavaVKL = 0;
   }
   

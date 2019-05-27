@@ -14,7 +14,7 @@ public class Login extends AppCompatActivity {
 
     EditText uprIme, geslo;
     ImageView slikaj;
-    Button prijava;
+    Button prijava, registracija;
     android.app.AlertDialog dialog;
 
     @Override
@@ -28,6 +28,7 @@ public class Login extends AppCompatActivity {
 
         slikaj = (ImageView)findViewById(R.id.ID_imagePhoto);
         prijava = (Button)findViewById(R.id.ID_prijaviBtn);
+        registracija = (Button)findViewById(R.id.ID_registracijaBtn);
 
         dialog = new SpotsDialog.Builder()
                 .setContext(this)
@@ -36,7 +37,6 @@ public class Login extends AppCompatActivity {
                 .build();
 
         setOnClickListeners();
-
 
     }
 
@@ -62,6 +62,13 @@ public class Login extends AppCompatActivity {
                     startActivity(i);
 
                 }
+            }
+        });
+        registracija.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent r = new Intent(getBaseContext(), Registracija.class);
+                startActivity(r);
             }
         });
     }
