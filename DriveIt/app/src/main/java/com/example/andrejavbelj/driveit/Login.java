@@ -7,15 +7,33 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import dmax.dialog.SpotsDialog;
 
 public class Login extends AppCompatActivity {
 
-    EditText uprIme, geslo;
-    ImageView slikaj;
-    Button prijava, registracija;
-    android.app.AlertDialog dialog;
+    private EditText uprIme, geslo;
+    private ImageView slikaj;
+    private Button prijava, registracija;
+    private ProgressBar bar;
+
+    private static String URL="http://192.168.1.72:8888/driveit/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +47,21 @@ public class Login extends AppCompatActivity {
         slikaj = (ImageView)findViewById(R.id.ID_imagePhoto);
         prijava = (Button)findViewById(R.id.ID_prijaviBtn);
         registracija = (Button)findViewById(R.id.ID_registracijaBtn);
+        bar = (ProgressBar) findViewById(R.id.ID_loadinglogin);
+        bar.setVisibility(View.GONE);
 
-        dialog = new SpotsDialog.Builder()
-                .setContext(this)
-                .setMessage("Logging in")
-                .setCancelable(false)
-                .build();
+
 
         setOnClickListeners();
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        prijava.setVisibility(View.VISIBLE);
+        registracija.setVisibility(View.VISIBLE);
     }
 
     private void setOnClickListeners(){
@@ -53,14 +77,15 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                dialog.show();
+                String n, p;
+                n = uprIme.getText().toString();
+                p = geslo.getText().toString();
 
-                if(uprIme.getText().toString().equals("") && geslo.getText().toString().equals("")){
-
-                    dialog.dismiss();
-                    Intent i = new Intent(getBaseContext(), GlavniMeni.class);
-                    startActivity(i);
-
+                if(n.matches("") || p.matches("")){
+                    Toast.makeText(getBaseContext(), getResources().getText(R.string.vse_podatke), Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    login(n, p);
                 }
             }
         });
@@ -71,5 +96,67 @@ public class Login extends AppCompatActivity {
                 startActivity(r);
             }
         });
+    }
+
+    private void login(final String name, final String password){
+        bar.setVisibility(View.VISIBLE);
+        prijava.setVisibility(View.GONE);
+        registracija.setVisibility(View.GONE);
+
+        StringRequest request = new StringRequest(Request.Method.POST, URL,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try{
+                            JSONObject json = new JSONObject(response);
+                            String s = json.getString("success");
+
+
+                            if (s.equals("1")){
+
+                                bar.setVisibility(View.GONE);
+                                Intent i = new Intent(getBaseContext(), GlavniMeni.class);
+                                startActivity(i);
+                            }
+                            else if(s.equals("2")){
+
+                                bar.setVisibility(View.GONE);
+                                prijava.setVisibility(View.VISIBLE);
+                                registracija.setVisibility(View.VISIBLE);
+                                Toast.makeText(getBaseContext(), getResources().getText(R.string.uporabnik_ne_obstaja), Toast.LENGTH_SHORT).show();
+                            }
+
+                        }catch (JSONException e){
+                            e.printStackTrace();
+                            Toast.makeText(getBaseContext(), getResources().getText(R.string.prijava_ni_uspela), Toast.LENGTH_SHORT).show();
+                            bar.setVisibility(View.GONE);
+                            prijava.setVisibility(View.VISIBLE);
+                            registracija.setVisibility(View.VISIBLE);
+                        }
+
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(getBaseContext(), getResources().getText(R.string.prijava_ni_uspela), Toast.LENGTH_SHORT).show();
+                        bar.setVisibility(View.GONE);
+                        prijava.setVisibility(View.VISIBLE);
+                        registracija.setVisibility(View.VISIBLE);
+                    }
+                })
+        {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> parametri = new HashMap<>();
+
+                parametri.put("usrname", name);
+                parametri.put("password", password);
+                return parametri;
+            }
+        };
+
+        RequestQueue r = Volley.newRequestQueue(this);
+        r.add(request);
     }
 }

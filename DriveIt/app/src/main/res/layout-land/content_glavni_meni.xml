@@ -36,7 +36,8 @@
         gauge:maxValue="300"
         gauge:minValue="0"
         gauge:totalNicks="120"
-        gauge:valuePerNick="3" />
+        gauge:valuePerNick="3"
+        app:lowerText="bar"/>
 
 
     <ImageView

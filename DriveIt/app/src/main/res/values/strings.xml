@@ -21,4 +21,11 @@
     <string name="ni_uspelo">Povezava ni uspela!</string>
     <string name="povezujem">Povezujem...</string>
     <string name="ze_povezavno">Povezava je že vzpostavljena</string>
+    <string name="vse_podatke">Niste vnesli vseh podatkov!</string>
+    <string name="neujemanje_gesel">Gesli se ne ujemata!</string>
+    <string name="registracija_uspela">Registracija uspela</string>
+    <string name="registracija_niUspela">Registracija ni uspela</string>
+    <string name="koda_se_ne_ujemaa">Napačna koda</string>
+    <string name="prijava_ni_uspela">Prijava ni uspela</string>
+    <string name="uporabnik_ne_obstaja">Uporabnik ne obstaja</string>
 </resources>

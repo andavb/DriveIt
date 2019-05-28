@@ -1120,6 +1120,7 @@
     <string name="invalid_min_max">Sum of min (%1$f) and max (%2$f) should be a multiple of value per nick (%3$f). Scale may be distorted.</string>
     <string name="invalid_min_max_ratio">Sum of min (%1$f) and max (%2$f) should be divisible by 2. Scale may be distorted.</string>
     <string name="invalid_number_of_nicks">Total nicks (%1$d) should be a multiple of major nick interval (%2$d). Scale may be distorted.</string>
+    <string name="koda_se_ne_ujemaa">Napačna koda</string>
     <string name="login">Prijava</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="naprava_nepodpira_b">Naprava ne podpira bluetoorh povezave!</string>
@@ -1128,6 +1129,7 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="navigation_drawer_close">Zapri meni</string>
     <string name="navigation_drawer_open">Odpri meni</string>
+    <string name="neujemanje_gesel">Gesli se ne ujemata!</string>
     <string name="ni_uspelo">Povezava ni uspela!</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
@@ -1136,9 +1138,12 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="povezi_bluetooth">Povežite napravo</string>
     <string name="povezujem">Povezujem...</string>
+    <string name="prijava_ni_uspela">Prijava ni uspela</string>
     <string name="prizgi_bluetooth">Prižgite bluetooth</string>
     <string name="project_id" translatable="false">driveit-279a7</string>
     <string name="register">Registracija</string>
+    <string name="registracija_niUspela">Registracija ni uspela</string>
+    <string name="registracija_uspela">Registracija uspela</string>
     <string name="registriraj">Registriraj</string>
     <string name="scale_ok">Scale should be okay.</string>
     <string name="search_menu_title">Search</string>
@@ -1146,7 +1151,9 @@
     <string name="title_activity_glavni_meni">GlavniMeni</string>
     <string name="title_activity_main">ActivityMain</string>
     <string name="title_activity_menu">Menu</string>
+    <string name="uporabnik_ne_obstaja">Uporabnik ne obstaja</string>
     <string name="uspesno_povezano">Uspešno povezano</string>
+    <string name="vse_podatke">Niste vnesli vseh podatkov!</string>
     <string name="ze_povezavno">Povezava je že vzpostavljena</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

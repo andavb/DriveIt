@@ -268,16 +268,16 @@
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/color_mtrl_chip_close_icon_tint.xml.flat",
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/res/color/mtrl_chip_close_icon_tint.xml"
     },
     {
-        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
-        "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/res/layout/design_text_input_password_icon.xml"
+        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1426,6 +1426,10 @@
     {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/layout-land_activity_registracija.xml.flat",
+        "source": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/res/layout-land/activity_registracija.xml"
     },
     {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
