@@ -33,18 +33,19 @@ void loop() {
    senzorvalue = analogRead(senzor);
   Serial1.println(senzorvalue);
 
-  if(senzorvalue > 800 && prestavaVKL == 0){
-    digitalWrite(prestava, LOW);
-    
-    Serial1.println(4950);
-    prestavaVKL = 1;
-  }
-  else if(senzorvalue < 300 && prestavaVKL == 1){
+  if(senzorvalue > 800 && prestavaVKL == 1){
     digitalWrite(prestava, HIGH);
 
     
     Serial1.println(5280);
     prestavaVKL = 0;
+  }
+  else if(senzorvalue < 200  && prestavaVKL == 0){
+    digitalWrite(prestava, LOW);
+
+    
+    Serial1.println(4950);
+    prestavaVKL = 1;
   }
   
   if(Serial1.available() > 0){

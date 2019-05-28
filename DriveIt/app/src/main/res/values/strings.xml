@@ -28,4 +28,5 @@
     <string name="koda_se_ne_ujemaa">Napačna koda</string>
     <string name="prijava_ni_uspela">Prijava ni uspela</string>
     <string name="uporabnik_ne_obstaja">Uporabnik ne obstaja</string>
+    <string name="dodaj">+</string>
 </resources>

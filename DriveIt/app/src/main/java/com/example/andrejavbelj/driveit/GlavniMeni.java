@@ -161,13 +161,9 @@ public class GlavniMeni extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
+        if (id == R.id.ID_euro) {
+            Intent i = new Intent();
+            startActivity(i);
 
         } else if (id == R.id.nav_share) {
             Intent bluetoothPicker = new Intent("android.bluetooth.devicepicker.action.LAUNCH");
@@ -303,7 +299,10 @@ public class GlavniMeni extends AppCompatActivity
                                         public void run() {
                                             text.setText(data);
                                             float rez = result/(float)3.3;
-                                            gauge.moveToValue(Math.round(rez/5)*5);
+
+                                            if(rez < 1030){
+                                                gauge.moveToValue(Math.round(rez/5)*5);
+                                            }
                                             if (rez >= 1190 && rez <= 1210){
                                                 automatic.setText("R");
                                                 //naprej.performClick(); gre naprej

@@ -19,7 +19,8 @@
         android:textAlignment="center"
         android:textSize="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
 
     <de.nitri.gauge.Gauge
         android:id="@+id/IDgauge"

@@ -436,6 +436,10 @@
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/layout_activity_voznje.xml.flat",
+        "source": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/res/layout/activity_voznje.xml"
+    },
+    {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable/abc_btn_check_material.xml"
     },
@@ -1162,6 +1166,10 @@
     {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable_ic_euro_symbol_black_24dp.xml.flat",
+        "source": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/res/drawable/ic_euro_symbol_black_24dp.xml"
     },
     {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
