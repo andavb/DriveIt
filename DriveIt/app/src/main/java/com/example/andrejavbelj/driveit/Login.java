@@ -24,8 +24,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import dmax.dialog.SpotsDialog;
-
 public class Login extends AppCompatActivity {
 
     private EditText uprIme, geslo;
@@ -45,7 +43,7 @@ public class Login extends AppCompatActivity {
         geslo = (EditText)findViewById(R.id.ID_loginPassword);
 
         slikaj = (ImageView)findViewById(R.id.ID_imagePhoto);
-        prijava = (Button)findViewById(R.id.ID_prijaviBtn);
+        prijava = (Button)findViewById(R.id.ID_spremenibtn);
         registracija = (Button)findViewById(R.id.ID_registracijaBtn);
         bar = (ProgressBar) findViewById(R.id.ID_loadinglogin);
         bar.setVisibility(View.GONE);

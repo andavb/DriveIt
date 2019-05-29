@@ -1,6 +1,7 @@
 package com.example.andrejavbelj.driveit;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
@@ -68,8 +69,6 @@ public class voznje extends AppCompatActivity {
                 kol1 = kolicina.getText().toString();
                 cena1 = cena.getText().toString();
 
-
-
                 if(ime1.matches("") || kol1.matches("") || cena1.matches("")){
                     Toast.makeText(getBaseContext(), getResources().getText(R.string.vse_podatke), Toast.LENGTH_SHORT).show();
                 }
@@ -117,36 +116,6 @@ public class voznje extends AppCompatActivity {
         request.add(objectRequest);
     }
 
-    private void getVoznja(int id){
-        RequestQueue request = Volley.newRequestQueue(getBaseContext());
-
-        JsonArrayRequest objectRequest = new JsonArrayRequest(
-                Request.Method.GET,
-                URL_ID+id,
-                null,
-                new Response.Listener<JSONArray>()
-                {
-                    @Override
-                    public void onResponse(JSONArray response) {
-
-                        Gson gson = new Gson();
-
-                        Type listType = new TypeToken<ArrayList<Voznje>>(){}.getType();
-
-                        voznje = gson.fromJson(response.toString(), listType);
-
-                    }
-                },
-                new Response.ErrorListener()
-                {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        System.out.println("Error.Response" + error.toString());
-                    }
-                }
-        );
-        request.add(objectRequest);
-    }
 
     private void deleteVoznja(int id){
         RequestQueue request = Volley.newRequestQueue(getBaseContext());
@@ -233,12 +202,11 @@ public class voznje extends AppCompatActivity {
     }
 
     public void odpriMeni(int position){
-        String ime = voznje.get(position).getIme();
-        int st = voznje.get(position).getKolicina();
-        int selekcija = voznje.get(position).getCena();
+        int id = voznje.get(position).getId();
 
-
-        Toast.makeText(getApplicationContext(), ime + " " + st + " " + selekcija, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getBaseContext(), UrediVoznjo.class);
+        intent.putExtra("ID_voznje", id);
+        startActivity(intent);
     }
 
     public void buildRecyView(){

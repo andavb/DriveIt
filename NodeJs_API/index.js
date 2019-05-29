@@ -17,7 +17,7 @@ app.get('/api/statistika', (req, res) =>{
 
 //GET:id
 app.get('/api/statistika/:id', (req, res) =>{
-	const voznja = voznje[req.params.id-1];
+	const voznja = voznje.find(c => c.id == parseInt(req.params.id));
 	if (!voznja) {
 		res.status(404).send("ID ne obstaja");
 		return;

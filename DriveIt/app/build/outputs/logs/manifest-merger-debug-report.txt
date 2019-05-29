@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
 MERGED from [com.android.support:design:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:2:1-17:12
 MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:2:1-27:12
@@ -66,20 +66,20 @@ MERGED from [com.android.support:print:28.0.0] /Users/andrejavbelj/.gradle/cache
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5c32f021ea91c884da52fddfa564bff9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b174d985f49f33937f39dec9b537e949/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.2.aar/510b2d73d8f3ccc344967638e9aa9eb3/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:11-69
@@ -116,7 +116,7 @@ MERGED from [com.google.firebase:firebase-iid:16.0.0] /Users/andrejavbelj/.gradl
 	android:name
 		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:11:5-41:19
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:10:5-42:19
 MERGED from [com.android.support:design:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/e56a9c973ef35e203da2dfcb52c6d137/AndroidManifest.xml:22:5-20
 MERGED from [com.github.Pygmalion69:Gauge:1.5] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/Gauge-1.5.aar/849a94bdb91a1b675e8771cefcd00b99/AndroidManifest.xml:11:5-15:19
@@ -180,63 +180,69 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /User
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/235f960aaa53d19718b1180e66c0f5dd/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.andrejavbelj.driveit.CameraSmile
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:18:9-20:51
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:17:9-19:51
 	android:parentActivityName
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:20:13-48
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:19:13-48
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:19:13-40
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:18:13-40
 activity#com.example.andrejavbelj.driveit.Login
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:21:9-27:20
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:21:19-40
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:20:19-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.example.andrejavbelj.driveit.GlavniMeni
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:28:9-35:20
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:27:9-34:20
 	android:label
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:30:13-45
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:29:13-45
 	android:theme
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:31:13-56
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:29:13-39
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:28:13-39
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:32:13-34:40
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:31:13-33:40
 	android:value
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:34:17-37
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:33:17-37
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:33:17-74
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:32:17-74
 activity#com.example.andrejavbelj.driveit.Registracija
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:36:9-38:51
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:35:9-37:51
 	android:parentActivityName
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:38:13-48
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:37:13-48
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:37:13-41
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:36:13-41
 activity#com.example.andrejavbelj.driveit.voznje
-ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:39:9-40:65
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:38:9-40:56
 	android:parentActivityName
 		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:40:13-53
 	android:name
-		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:39:19-41
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:39:13-35
+activity#com.example.andrejavbelj.driveit.UrediVoznjo
+ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:41:9-95
+	android:parentActivityName
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:41:47-83
+	android:name
+		ADDED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:41:19-46
 uses-sdk
 INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml
@@ -412,7 +418,7 @@ ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/
 	android:name
 		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/07a5d7b9bdaf8e3372b6b527a4380913/AndroidManifest.xml:22:9-51
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-43:12 reason: com.wonderkiln.camerakit.core requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/AndroidManifest.xml:2:1-44:12 reason: com.wonderkiln.camerakit.core requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.1.aar/79255c5ae5fc350f51265fa3aeeab240/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.3.aar/5bb115d9b75b5c26613ea779b81cfb86/AndroidManifest.xml:25:5-68

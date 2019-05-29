@@ -38,4 +38,6 @@
     <string name="bravo">"Bravo odklenili ste z nasmehom! Nasmeh: "</string>
     <string name="premalo_nasmeha">"Malo bolj se nasmejte!  Nasmeh: "</string>
     <string name="ni_povezave">"Ni internetne povezave"</string>
+    <string name="spremeni">"Spremeni"</string>
+    <string name="napaka">"Prišlo je do napake!"</string>
 </resources>
