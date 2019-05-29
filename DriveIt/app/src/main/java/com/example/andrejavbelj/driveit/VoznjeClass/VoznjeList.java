@@ -87,8 +87,8 @@ public class VoznjeList extends RecyclerView.Adapter<VoznjeList.VoznjeListVieweH
         System.out.println(v.toString());
 
         voznjeListVieweHolder.ime.setText(v.getIme());
-        voznjeListVieweHolder.kolicina.setText(String.valueOf(v.getKolicina()));
-        voznjeListVieweHolder.cena.setText(String.valueOf(v.getCena()));
+        voznjeListVieweHolder.kolicina.setText("Količina: " + String.valueOf(v.getKolicina()));
+        voznjeListVieweHolder.cena.setText("Cena: " + String.valueOf(v.getCena()) + "€");
     }
 
     @Override

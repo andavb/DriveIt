@@ -817,12 +817,12 @@ public final class R {
         public static final int abc_shareactionprovider_share_with_application = 0x7f0e0025;
         public static final int abc_toolbar_collapse_description = 0x7f0e0026;
         public static final int app_name = 0x7f0e0028;
-        public static final int invalid_min_max = 0x7f0e004e;
-        public static final int invalid_min_max_ratio = 0x7f0e004f;
-        public static final int invalid_number_of_nicks = 0x7f0e0050;
-        public static final int scale_ok = 0x7f0e006c;
-        public static final int search_menu_title = 0x7f0e006d;
-        public static final int status_bar_notification_info_overflow = 0x7f0e006e;
+        public static final int invalid_min_max = 0x7f0e004f;
+        public static final int invalid_min_max_ratio = 0x7f0e0050;
+        public static final int invalid_number_of_nicks = 0x7f0e0051;
+        public static final int scale_ok = 0x7f0e006f;
+        public static final int search_menu_title = 0x7f0e0070;
+        public static final int status_bar_notification_info_overflow = 0x7f0e0071;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f0f0000;

@@ -29,12 +29,13 @@ import org.json.JSONObject;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class voznje extends AppCompatActivity {
 
-    private final String URL_GET = "http://192.168.1.72:3000/api/statistika";
-    private final String URL_GET_ID = "http://192.168.1.72:3000/api/statistika/";
+    private final String URL = "http://192.168.1.72:3000/api/statistika";
+    private final String URL_ID = "http://192.168.1.72:3000/api/statistika/";
     public ArrayList<Voznje> voznje;
     private RecyclerView myRecycleView;
     private VoznjeList mAdapter;
@@ -80,7 +81,7 @@ public class voznje extends AppCompatActivity {
 
         JsonArrayRequest objectRequest = new JsonArrayRequest(
                 Request.Method.GET,
-                URL_GET,
+                URL,
                 null,
                 new Response.Listener<JSONArray>()
                 {
@@ -113,7 +114,7 @@ public class voznje extends AppCompatActivity {
 
         JsonArrayRequest objectRequest = new JsonArrayRequest(
                 Request.Method.GET,
-                URL_GET_ID,
+                URL_ID+id,
                 null,
                 new Response.Listener<JSONArray>()
                 {
@@ -144,7 +145,7 @@ public class voznje extends AppCompatActivity {
 
         JsonArrayRequest objectRequest = new JsonArrayRequest(
                 Request.Method.DELETE,
-                URL_GET_ID+id,
+                URL_ID+id,
                 null,
                 new Response.Listener<JSONArray>()
                 {
@@ -165,8 +166,43 @@ public class voznje extends AppCompatActivity {
         request.add(objectRequest);
     }
 
+    private void postVoznja(Voznje voznja){
+
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("ime", voznja.getIme());
+        params.put("kolicina",Integer.toString(voznja.getKolicina()));
+        params.put("cena", Integer.toString(voznja.getCena()));
+
+        JsonObjectRequest objectRequest = new JsonObjectRequest(
+                Request.Method.POST,
+                URL,
+                new JSONObject(params),
+                new Response.Listener<JSONObject>()
+                {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        System.out.println("Deleted " + response);
+
+                    }
+                },
+                new Response.ErrorListener()
+                {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        System.out.println("Error.Response" + error.toString());
+                    }
+                }
+        );
+        RequestQueue request = Volley.newRequestQueue(getBaseContext());
+
+        request.add(objectRequest);
+
+
+    }
+
 
     public void dodajNaseznam(String ime, int kol, int cena){
+        postVoznja(new Voznje(ime, kol, cena));
         voznje.add(new Voznje(ime, kol, cena));
         mAdapter.notifyDataSetChanged();
     }

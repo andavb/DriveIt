@@ -32,6 +32,9 @@
     <string name="voznje">Vožnje</string>
     <string name="naprave">Naprave</string>
     <string name="ime">Ime</string>
-    <string name="kolicina">Kolicina</string>
     <string name="cena">Cena</string>
+    <string name="kolicina">Količina</string>
+    <string name="ne_zaznavam">Ne zaznavam obraza</string>
+    <string name="bravo">"Bravo odklenili ste z nasmehom! Nasmeh: "</string>
+    <string name="premalo_nasmeha">"Malo bolj se nasmejte!  Nasmeh: "</string>
 </resources>

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat May 25 19:30:56 CEST 2019
+#Wed May 29 16:33:10 CEST 2019
 17.baseType=DIRECTORY
 4.path=lib/mips64/libjpge.so
 25.base=/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/transforms/dexMerger/debug/12

@@ -223,8 +223,6 @@ public class GlavniMeni extends AppCompatActivity
 
         try
         {
-            System.out.println(socket);
-            System.out.println(device);
 
             socket = device.createRfcommSocketToServiceRecord(PORT); //socket za output povezavo
 
@@ -371,10 +369,9 @@ public class GlavniMeni extends AppCompatActivity
 
         if(bondedDevices.isEmpty()) //Checks for paired bluetooth devices
         {
-            Toast.makeText(getApplicationContext(), "Please pair the device first", Toast.LENGTH_SHORT).show();
 
-            Intent i = new Intent(android.provider.Settings.ACTION_BLUETOOTH_SETTINGS);
-            startActivityForResult(i, 0);
+            Toast.makeText(this,
+                    getResources().getText(R.string.ni_uspelo), Toast.LENGTH_LONG).show();
         }
         else
         {

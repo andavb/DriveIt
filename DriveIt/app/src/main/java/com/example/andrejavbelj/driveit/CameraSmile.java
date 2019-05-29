@@ -87,9 +87,7 @@ public class CameraSmile extends AppCompatActivity {
         slikajBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                camera.start();
                 camera.captureImage();
-
             }
         });
 
@@ -104,6 +102,8 @@ public class CameraSmile extends AppCompatActivity {
             @Override
             public void onError(CameraKitError cameraKitError) {
 
+                dialog.dismiss();
+
             }
 
             @Override
@@ -113,14 +113,13 @@ public class CameraSmile extends AppCompatActivity {
                 Bitmap bitmap = cameraKitImage.getBitmap();
 
                 bitmap = Bitmap.createScaledBitmap(bitmap, camera.getWidth(), camera.getHeight(), false);
-                camera.stop();
+
 
                 detectSmile(bitmap);
             }
 
             @Override
             public void onVideo(CameraKitVideo cameraKitVideo) {
-
             }
         });
     }
@@ -141,7 +140,8 @@ public class CameraSmile extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(CameraSmile.this, "NE zanzvam", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+                Toast.makeText(CameraSmile.this, getResources().getText(R.string.ne_zaznavam), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -151,17 +151,20 @@ public class CameraSmile extends AppCompatActivity {
             if (obraz.getSmilingProbability() != FirebaseVisionFace.UNCOMPUTED_PROBABILITY) {
                 float nasmeh = obraz.getSmilingProbability();
 
-                System.out.println("Nasmeh prob: " + String.valueOf(nasmeh));
+
+                int n = Math.round(nasmeh*100);
+
+                System.out.println("Nasmeh prob: " + String.valueOf(n));
 
                 dialog.dismiss();
 
-                if (nasmeh > 0.2){
-                    Toast.makeText(CameraSmile.this, "Bravo odklenili ste z nasmehom!", Toast.LENGTH_SHORT).show();
+                if (nasmeh > 0.3){
+                    Toast.makeText(CameraSmile.this, getResources().getText(R.string.bravo)+" "+Integer.toString(n) + " % ", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(getBaseContext(), GlavniMeni.class);
                     startActivity(i);
                 }
                 else{
-                    Toast.makeText(CameraSmile.this, "Malo bolj se nasmejte!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CameraSmile.this, getResources().getText(R.string.premalo_nasmeha)+" "+Integer.toString(n) + " % ", Toast.LENGTH_LONG).show();
                 }
 
             }

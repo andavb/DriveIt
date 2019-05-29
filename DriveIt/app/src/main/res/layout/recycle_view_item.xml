@@ -7,38 +7,40 @@
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
+        android:id="@+id/igralec_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:layout_marginBottom="35dp"
-        android:layout_marginTop="35dp"
-        android:id="@+id/igralec_item">
-        <TextView
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:padding="2dp"
-            android:id="@+id/ID_txtViewIme"/>
+        android:layout_marginTop="35dp">
 
         <TextView
-            android:text=""
+            android:id="@+id/ID_txtViewIme"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/ID_txtViewKolcina"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:padding="2dp"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/ID_txtViewIme"/>
+            android:layout_toEndOf="@+id/ID_txtViewIme"
+            android:padding="2dp"
+            android:text="s"
+            android:textSize="20sp" />
 
         <TextView
-            android:text=""
             android:id="@+id/ID_txtViewCena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:padding="2dp"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/ID_txtViewKolcina"/>
+            android:layout_toEndOf="@+id/ID_txtViewKolcina"
+            android:padding="2dp"
+            android:text=""
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/odstrani"
