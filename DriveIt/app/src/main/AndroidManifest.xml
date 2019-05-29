@@ -38,7 +38,10 @@
         <activity
             android:name=".voznje"
             android:parentActivityName=".GlavniMeni" />
-        <activity android:name=".UrediVoznjo" android:parentActivityName=".voznje"></activity>
+        <activity
+            android:name=".UrediVoznjo"
+            android:parentActivityName=".voznje" />
+        <activity android:name=".AboutApp" android:parentActivityName=".GlavniMeni"></activity>
     </application>
 
 </manifest>

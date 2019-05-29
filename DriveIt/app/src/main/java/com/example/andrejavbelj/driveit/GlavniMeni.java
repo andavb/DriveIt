@@ -4,13 +4,10 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.PersistableBundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -20,22 +17,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.gson.Gson;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
 import de.nitri.gauge.Gauge;
-import dmax.dialog.SpotsDialog;
 
 public class GlavniMeni extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -148,7 +139,10 @@ public class GlavniMeni extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.ID_settings) {
+
+            Intent i = new Intent(getBaseContext(), AboutApp.class);
+            startActivity(i);
             return true;
         }
 
@@ -217,7 +211,6 @@ public class GlavniMeni extends AppCompatActivity
     }
 
     public boolean BTconnect()
-
     {
         boolean connected = true;
 
@@ -486,5 +479,6 @@ public class GlavniMeni extends AppCompatActivity
 
 
     }
+
 
 }

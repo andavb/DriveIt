@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -81,6 +82,13 @@ public class voznje extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        getVoznje();
     }
 
     private void getVoznje(){
@@ -181,8 +189,10 @@ public class voznje extends AppCompatActivity {
     public void dodajNaseznam(String ime, int kol, int cena){
         if(isNetworkAvailable()){
             postVoznja(new Voznje(ime, kol, cena));
-            voznje.add(new Voznje(ime, kol, cena));
+            voznje.add(new Voznje(voznje.size()+1, ime, kol, cena));
             mAdapter.notifyDataSetChanged();
+            myRecycleView.smoothScrollToPosition(voznje.size());
+
         }
         else{
             Toast.makeText(getBaseContext(), getResources().getText(R.string.ni_povezave), Toast.LENGTH_SHORT).show();
@@ -206,7 +216,7 @@ public class voznje extends AppCompatActivity {
 
         Intent intent = new Intent(getBaseContext(), UrediVoznjo.class);
         intent.putExtra("ID_voznje", id);
-        startActivity(intent);
+        startActivityForResult(intent, 1);
     }
 
     public void buildRecyView(){

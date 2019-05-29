@@ -24,6 +24,13 @@ public class Voznje {
         this.kolicina = kolicina;
         this.cena = cena;
     }
+    public Voznje(int id,String ime, int kolicina, int cena) {
+
+        this.id = id;
+        this.ime = ime;
+        this.kolicina = kolicina;
+        this.cena = cena;
+    }
     public int getId() {
         return id;
     }

@@ -12,18 +12,13 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.andrejavbelj.driveit.VoznjeClass.Voznje;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class UrediVoznjo extends AppCompatActivity {
 
@@ -32,6 +27,7 @@ public class UrediVoznjo extends AppCompatActivity {
     private EditText ime, kolicina, cena;
     private TextView id_uredi;
     private Button spremeni;
+    private int value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,13 +43,13 @@ public class UrediVoznjo extends AppCompatActivity {
         spremeni.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                spremeniVoznjo(value);
             }
         });
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            int value = extras.getInt("ID_voznje");
+            value = extras.getInt("ID_voznje");
             System.out.println(value);
             getVoznja(value);
         }
@@ -92,5 +88,48 @@ public class UrediVoznjo extends AppCompatActivity {
                 }
         );
         request.add(getRequest);
+    }
+
+    private void spremeniVoznjo(int id){
+
+        String ime1, kol1, cena1;
+        ime1 = ime.getText().toString();
+        kol1 = kolicina.getText().toString();
+        cena1 = cena.getText().toString();
+
+        if(ime1.matches("") || kol1.matches("") || cena1.matches("")){
+            Toast.makeText(getBaseContext(), getResources().getText(R.string.vse_podatke), Toast.LENGTH_SHORT).show();
+        }
+        else{
+
+            HashMap<String, String> params = new HashMap<String, String>();
+            params.put("ime", ime1);
+            params.put("kolicina",kol1);
+            params.put("cena", cena1);
+
+            JsonObjectRequest objectRequest = new JsonObjectRequest(
+                    Request.Method.PUT,
+                    URL_ID+id,
+                    new JSONObject(params),
+                    new Response.Listener<JSONObject>()
+                    {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            System.out.println("Spremenjeno " + response);
+                            finish();
+                        }
+                    },
+                    new Response.ErrorListener()
+                    {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(getBaseContext(), getResources().getText(R.string.napaka), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+            );
+            RequestQueue request = Volley.newRequestQueue(getBaseContext());
+
+            request.add(objectRequest);
+        }
     }
 }

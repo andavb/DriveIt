@@ -35,9 +35,10 @@
     <string name="cena">Cena</string>
     <string name="kolicina">Količina</string>
     <string name="ne_zaznavam">Ne zaznavam obraza</string>
-    <string name="bravo">"Bravo odklenili ste z nasmehom! Nasmeh: "</string>
-    <string name="premalo_nasmeha">"Malo bolj se nasmejte!  Nasmeh: "</string>
-    <string name="ni_povezave">"Ni internetne povezave"</string>
-    <string name="spremeni">"Spremeni"</string>
-    <string name="napaka">"Prišlo je do napake!"</string>
+    <string name="bravo">Bravo odklenili ste z nasmehom! Nasmeh: </string>
+    <string name="premalo_nasmeha">Malo bolj se nasmejte!  Nasmeh: </string>
+    <string name="ni_povezave">Ni internetne povezave"</string>
+    <string name="spremeni">Spremeni</string>
+    <string name="napaka">Prišlo je do napake!</string>
+    <string name="o_aplikaciji">O aplikaciji</string>
 </resources>
