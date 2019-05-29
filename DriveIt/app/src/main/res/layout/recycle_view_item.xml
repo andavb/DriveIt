@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/igralec_item">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:id="@+id/ID_txtViewIme"/>
+
+        <TextView
+            android:text=""
+            android:id="@+id/ID_txtViewKolcina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ID_txtViewIme"/>
+
+        <TextView
+            android:text=""
+            android:id="@+id/ID_txtViewCena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ID_txtViewKolcina"/>
+
+        <ImageView
+            android:id="@+id/odstrani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/ic_x_button" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -69,6 +69,9 @@
         <activity
             android:name="com.example.andrejavbelj.driveit.Registracija"
             android:parentActivityName="com.example.andrejavbelj.driveit.Login" />
+        <activity
+            android:name="com.example.andrejavbelj.driveit.voznje"
+            android:parentActivityName="com.example.andrejavbelj.driveit.GlavniMeni" />
 
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
             <meta-data

@@ -1,21 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".voznje">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/bacground_color"
+        android:layout_marginBottom="150dp"
+        />
+
+    <EditText
+        android:id="@+id/ID_ime"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="15dp"
+        android:hint="@string/ime"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ID_kolicina"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="15dp"
+        android:hint="@string/kolicina"
+        android:textSize="20sp"
+        android:inputType="numberSigned"/>
+
+    <EditText
+        android:id="@+id/ID_ccena"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="15dp"
+        android:hint="@string/cena"
+        android:textSize="20sp"
+        android:inputType="numberSigned"/>
+
     <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="@string/dodaj"
-        android:background="@drawable/button_shape_blue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-</android.support.constraint.ConstraintLayout>
+        android:id="@+id/dodaj"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ID_kolicina"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/button_green"
+        android:text="+"
+        android:textColor="@android:color/white"
+        android:textSize="42sp" />
+
+
+</RelativeLayout>

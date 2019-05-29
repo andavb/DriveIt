@@ -24,11 +24,11 @@ public final class R {
         public static final int title_padding = 0x7f0600d9;
     }
     public static final class drawable {
-        public static final int dmax_spots_spot = 0x7f070079;
+        public static final int dmax_spots_spot = 0x7f07007a;
     }
     public static final class id {
-        public static final int dmax_spots_progress = 0x7f08005c;
-        public static final int dmax_spots_title = 0x7f08005d;
+        public static final int dmax_spots_progress = 0x7f080062;
+        public static final int dmax_spots_title = 0x7f080063;
     }
     public static final class layout {
         public static final int dmax_spots_dialog = 0x7f0b0032;

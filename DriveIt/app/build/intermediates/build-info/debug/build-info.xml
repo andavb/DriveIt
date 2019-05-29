@@ -5,31 +5,32 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.1.4"
-    timestamp="1559058530225"
+    timestamp="1559133920036"
     token="-9193518804961598546"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="505" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="163" />
     <task
         name="verifier"
-        duration="0" />
+        duration="19" />
 
     <artifact
-        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1559058143851"
+        timestamp="1559133758104"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -73,10 +74,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1559058530225"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1559133920036"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
     </build>
 

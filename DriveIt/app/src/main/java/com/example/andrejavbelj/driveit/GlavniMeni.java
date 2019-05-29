@@ -162,7 +162,7 @@ public class GlavniMeni extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.ID_euro) {
-            Intent i = new Intent();
+            Intent i = new Intent(getBaseContext(), voznje.class);
             startActivity(i);
 
         } else if (id == R.id.nav_share) {

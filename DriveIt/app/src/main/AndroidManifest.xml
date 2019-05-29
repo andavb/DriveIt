@@ -33,7 +33,8 @@
         <activity
             android:name=".Registracija"
             android:parentActivityName=".Login" />
-        <activity android:name=".voznje"></activity>
+        <activity android:name=".voznje"
+            android:parentActivityName=".GlavniMeni"></activity>
     </application>
 
 </manifest>

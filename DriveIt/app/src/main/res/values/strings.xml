@@ -29,4 +29,9 @@
     <string name="prijava_ni_uspela">Prijava ni uspela</string>
     <string name="uporabnik_ne_obstaja">Uporabnik ne obstaja</string>
     <string name="dodaj">+</string>
+    <string name="voznje">Vožnje</string>
+    <string name="naprave">Naprave</string>
+    <string name="ime">Ime</string>
+    <string name="kolicina">Kolicina</string>
+    <string name="cena">Cena</string>
 </resources>

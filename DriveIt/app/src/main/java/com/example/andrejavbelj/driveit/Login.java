@@ -81,12 +81,17 @@ public class Login extends AppCompatActivity {
                 n = uprIme.getText().toString();
                 p = geslo.getText().toString();
 
-                if(n.matches("") || p.matches("")){
+
+                Intent i = new Intent(getBaseContext(), GlavniMeni.class);
+                startActivity(i);
+
+                /*if(n.matches("") || p.matches("")){
                     Toast.makeText(getBaseContext(), getResources().getText(R.string.vse_podatke), Toast.LENGTH_SHORT).show();
                 }
                 else{
                     login(n, p);
-                }
+
+                }*/
             }
         });
         registracija.setOnClickListener(new View.OnClickListener() {
