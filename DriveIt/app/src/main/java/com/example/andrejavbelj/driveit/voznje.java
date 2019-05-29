@@ -1,6 +1,8 @@
 package com.example.andrejavbelj.driveit;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -56,7 +58,6 @@ public class voznje extends AppCompatActivity {
 
         voznje = new ArrayList<>();
 
-
         getVoznje();
 
         dodaj.setOnClickListener(new View.OnClickListener() {
@@ -67,10 +68,17 @@ public class voznje extends AppCompatActivity {
                 kol1 = kolicina.getText().toString();
                 cena1 = cena.getText().toString();
 
-                int k =  Integer.valueOf(kol1);
-                int c =  Integer.valueOf(cena1);
 
-                dodajNaseznam(ime1, k, c);
+
+                if(ime1.matches("") || kol1.matches("") || cena1.matches("")){
+                    Toast.makeText(getBaseContext(), getResources().getText(R.string.vse_podatke), Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    int k =  Integer.valueOf(kol1);
+                    int c =  Integer.valueOf(cena1);
+
+                    dodajNaseznam(ime1, k, c);
+                }
             }
         });
 
@@ -202,16 +210,26 @@ public class voznje extends AppCompatActivity {
 
 
     public void dodajNaseznam(String ime, int kol, int cena){
-        postVoznja(new Voznje(ime, kol, cena));
-        voznje.add(new Voznje(ime, kol, cena));
-        mAdapter.notifyDataSetChanged();
+        if(isNetworkAvailable()){
+            postVoznja(new Voznje(ime, kol, cena));
+            voznje.add(new Voznje(ime, kol, cena));
+            mAdapter.notifyDataSetChanged();
+        }
+        else{
+            Toast.makeText(getBaseContext(), getResources().getText(R.string.ni_povezave), Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void odstraniItem(int pos){
-        deleteVoznja(voznje.get(pos).getId());
+        if(isNetworkAvailable()){
+            deleteVoznja(voznje.get(pos).getId());
 
-        voznje.remove(pos);
-        mAdapter.notifyDataSetChanged();
+            voznje.remove(pos);
+            mAdapter.notifyDataSetChanged();
+        }
+        else{
+            Toast.makeText(getBaseContext(), getResources().getText(R.string.ni_povezave), Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void odpriMeni(int position){
@@ -244,5 +262,12 @@ public class voznje extends AppCompatActivity {
                 odstraniItem(position);
             }
         });
+    }
+
+    public boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 }

@@ -37,4 +37,5 @@
     <string name="ne_zaznavam">Ne zaznavam obraza</string>
     <string name="bravo">"Bravo odklenili ste z nasmehom! Nasmeh: "</string>
     <string name="premalo_nasmeha">"Malo bolj se nasmejte!  Nasmeh: "</string>
+    <string name="ni_povezave">"Ni internetne povezave"</string>
 </resources>

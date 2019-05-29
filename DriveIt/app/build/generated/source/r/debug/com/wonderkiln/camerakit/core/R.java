@@ -857,8 +857,8 @@ public final class R {
         public static final int common_open_on_phone = 0x7f0e003e;
         public static final int common_signin_button_text = 0x7f0e003f;
         public static final int common_signin_button_text_long = 0x7f0e0040;
-        public static final int search_menu_title = 0x7f0e0070;
-        public static final int status_bar_notification_info_overflow = 0x7f0e0071;
+        public static final int search_menu_title = 0x7f0e0071;
+        public static final int status_bar_notification_info_overflow = 0x7f0e0072;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat = 0x7f0f0000;
