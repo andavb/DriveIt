@@ -1,6 +1,8 @@
 package com.example.andrejavbelj.driveit;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +32,10 @@ public class Login extends AppCompatActivity {
     private ImageView slikaj;
     private Button prijava, registracija;
     private ProgressBar bar;
+    private SharedPreferences pref;
+    private SharedPreferences.Editor prefEditor;
+    private final String NAME = "pref";
+    private final String USERNAME = "name";
 
     private static String URL="http://192.168.1.72:8888/driveit/login.php";
 
@@ -47,8 +53,8 @@ public class Login extends AppCompatActivity {
         registracija = (Button)findViewById(R.id.ID_registracijaBtn);
         bar = (ProgressBar) findViewById(R.id.ID_loadinglogin);
         bar.setVisibility(View.GONE);
-
-
+        pref = getSharedPreferences(NAME, Context.MODE_PRIVATE);
+        prefEditor = pref.edit();
 
         setOnClickListeners();
 
@@ -117,6 +123,8 @@ public class Login extends AppCompatActivity {
                             if (s.equals("1")){
 
                                 bar.setVisibility(View.GONE);
+                                prefEditor.putString(USERNAME, uprIme.getText().toString());
+                                prefEditor.apply();
                                 Intent i = new Intent(getBaseContext(), GlavniMeni.class);
                                 startActivity(i);
                             }

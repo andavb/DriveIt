@@ -3,7 +3,9 @@ package com.example.andrejavbelj.driveit;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.os.Handler;
@@ -41,10 +43,13 @@ public class GlavniMeni extends AppCompatActivity
     private InputStream inputStream;
     private boolean stopThread, con;
     private ImageView naprej, nazaj;
-    private TextView text, prestava, automatic;
+    private TextView text, prestava, automatic, username;
     private String command;
     private Gauge gauge;
     private FloatingActionButton fab;
+    private SharedPreferences pref;
+    private final String NAME = "pref";
+    private final String USERNAME = "name";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +75,8 @@ public class GlavniMeni extends AppCompatActivity
         prestava =  (TextView) findViewById(R.id.IDprestava);
         text =  (TextView) findViewById(R.id.IDTextview);
         automatic =  (TextView) findViewById(R.id.ID_automatic);
+        pref = getSharedPreferences(NAME, Context.MODE_PRIVATE);
+
 
         if (savedInstanceState != null){
 
@@ -103,6 +110,7 @@ public class GlavniMeni extends AppCompatActivity
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        pref.edit().remove(NAME).commit();
 
         stopThread = true;
 
@@ -128,6 +136,10 @@ public class GlavniMeni extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.glavni_meni, menu);
+
+
+        username = (TextView)findViewById(R.id.ID_username);
+        username.setText(pref.getString(USERNAME,""));
         return true;
     }
 
@@ -163,6 +175,10 @@ public class GlavniMeni extends AppCompatActivity
             Intent bluetoothPicker = new Intent("android.bluetooth.devicepicker.action.LAUNCH");
             startActivity(bluetoothPicker);
         }
+        else if (id == R.id.ID_odjava) {
+            finish();
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

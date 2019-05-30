@@ -2180,6 +2180,10 @@
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable_ic_power_settings_new_black_24dp.xml.flat",
+        "source": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/src/main/res/drawable/ic_power_settings_new_black_24dp.xml"
+    },
+    {
         "merged": "/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/andrejavbelj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c954c62786a0478c18399464c4b80698/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },

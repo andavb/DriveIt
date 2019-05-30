@@ -2,51 +2,48 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="26"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.1.4"
-    timestamp="1559165750358"
+    timestamp="1559211907934"
     token="-9193518804961598546"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="854" />
+        duration="1505" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="196" />
+        duration="129" />
     <task
         name="verifier"
-        duration="113" />
+        duration="118" />
 
     <artifact
         location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -60,26 +57,40 @@
     <artifact
         location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1559165750358"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1559210894521"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -88,10 +99,34 @@
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1559211907934"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -105,9 +140,6 @@
         <artifact
             location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/andrejavbelj/Datoteke/Fax_2018_2019/DriveIt/DriveIt/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

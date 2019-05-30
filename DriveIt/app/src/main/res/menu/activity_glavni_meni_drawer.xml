@@ -19,4 +19,11 @@
         </menu>
     </item>
 
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ID_odjava"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/odjava" />
+    </group>
+
 </menu>
