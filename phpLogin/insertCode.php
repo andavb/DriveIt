@@ -13,11 +13,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 	if (mysqli_query($link, $query)) {
 		echo "uspelo";
-
 	}
 	else{
 		echo "ni uspelo";
-		
 	}
 }
 

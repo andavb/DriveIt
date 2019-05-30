@@ -2,9 +2,9 @@
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-	$name = $_POST['usrname'];
-	$pass = $_POST['password'];
-	$code = $_POST['code'];
+	$name = mysqli_real_escape_string($link, $_POST['usrname']);
+	$pass = mysqli_real_escape_string($link, $_POST['password']);
+	$code = mysqli_real_escape_string($link, $_POST['code']);
 
 	$pass = password_hash($pass, PASSWORD_DEFAULT);
 

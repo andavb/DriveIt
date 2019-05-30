@@ -3,8 +3,8 @@
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-	$name = $_POST['usrname'];
-	$pass = $_POST['password'];
+	$name = mysqli_real_escape_string($link, $_POST['usrname']);
+	$pass = mysqli_real_escape_string($link, $_POST['password']);
 
 	require_once 'connection.php';
 
