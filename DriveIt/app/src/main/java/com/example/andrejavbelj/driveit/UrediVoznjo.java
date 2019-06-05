@@ -23,7 +23,7 @@ import java.util.HashMap;
 public class UrediVoznjo extends AppCompatActivity {
 
 
-    private final String URL_ID = "http://192.168.1.72:3000/api/statistika/";
+    private final String URL_ID = "http://192.168.43.116:3000/api/statistika/";
     private EditText ime, kolicina, cena;
     private TextView id_uredi;
     private Button spremeni;

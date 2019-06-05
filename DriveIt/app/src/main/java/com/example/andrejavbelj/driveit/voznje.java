@@ -38,8 +38,8 @@ import java.util.List;
 
 public class voznje extends AppCompatActivity {
 
-    private final String URL = "http://192.168.1.72:3000/api/statistika";
-    private final String URL_ID = "http://192.168.1.72:3000/api/statistika/";
+    private final String URL = "http://192.168.43.116:3000/api/statistika";
+    private final String URL_ID = "http://192.168.43.116:3000/api/statistika/";
     public ArrayList<Voznje> voznje;
     private RecyclerView myRecycleView;
     private VoznjeList mAdapter;

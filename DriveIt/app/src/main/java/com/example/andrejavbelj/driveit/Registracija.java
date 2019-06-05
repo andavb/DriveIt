@@ -31,7 +31,7 @@ public class Registracija extends AppCompatActivity {
     private EditText usrname, password, passwordRepeat, uniqcode;
     private Button registrirajBtn;
     private ProgressBar loading;
-    private static String URL="http://192.168.1.72:8888/driveit/register.php";
+    private static String URL="http://192.168.43.116:8888/driveit/register.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

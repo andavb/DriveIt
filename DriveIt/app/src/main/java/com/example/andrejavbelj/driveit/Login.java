@@ -37,7 +37,7 @@ public class Login extends AppCompatActivity {
     private final String NAME = "pref";
     private final String USERNAME = "name";
 
-    private static String URL="http://192.168.1.72:8888/driveit/login.php";
+    private static String URL="http://192.168.43.116:8888/driveit/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

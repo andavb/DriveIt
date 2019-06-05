@@ -1,0 +1,119 @@
+commit 411d69caeb6c1d32e1f4bc37a65523b2e2ee9704
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Thu May 30 12:43:01 2019 +0200
+
+    bug fix
+
+commit 7e59dd1592957744ab435e917b037d0a80a96b75
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Thu May 30 12:26:21 2019 +0200
+
+    added logout and remeber user when login
+
+commit 804a193be496e660ae9f5f94ccef3d35de08eee0
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Wed May 29 23:46:20 2019 +0200
+
+    added about app, almost finish:)
+
+commit b6a10f1eafd2a154f6f18431606345a951fe6733
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Wed May 29 22:59:59 2019 +0200
+
+    camera smile fixed, now working perfsssect
+
+commit 2a91f4ad833ac7120a7b9c4937263f8801b9847a
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Wed May 29 17:26:57 2019 +0200
+
+    check for internet connection
+
+commit d71a25692b783fcbdd50adba656338adfbcbb4f4
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Wed May 29 16:53:38 2019 +0200
+
+    camera smile fixed, now working perfect
+
+commit 65281db183669dbd2ac71f795566420d56d894e0
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Wed May 29 14:47:26 2019 +0200
+
+    added recycleview, get data et data from api
+
+commit fd13cea45776f8eb590a1bd636fd98e286981dfb
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Tue May 28 23:15:35 2019 +0200
+
+    added api and new view..
+
+commit adf9772e2b368faa4c38144dd2204a8bdaf038ce
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Tue May 28 13:29:42 2019 +0200
+
+    added DB connect and registed register view
+
+commit 8bb6820c64ea4b9db5cc8d31c84cf59bd993a64e
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Mon May 27 16:05:42 2019 +0200
+
+    added style and sbugs fixes d fixed and get some new bugs:)
+
+commit fd00aee061d28c829bedf3a0db9ba5d075598f8a
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Sun May 26 21:00:29 2019 +0200
+
+    shifting work
+
+commit f853e00e221950facf1a122289be0d422c3f9f42
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Sun May 26 18:58:29 2019 +0200
+
+    bugs fixed
+
+commit 7e8da0b1ecc26a5be4e524390c5158bd2afb394a
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Sat May 25 20:27:21 2019 +0200
+
+    repaired navigation menu
+
+commit 994dfafa383046892e04004e72720ed7899460d2
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Sat May 25 02:10:05 2019 +0200
+
+    added toolbar
+
+commit 02af1204476f7e6a4d33571c7d44532379e9d6ff
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Fri May 24 16:17:59 2019 +0200
+
+    unlock with smile
+
+commit e755b319872e54f3bce1400d2540c5ed0001faf1
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Fri May 24 15:43:20 2019 +0200
+
+    added login page
+
+commit 3d74081a5b3d1e62b2ae07f7e0c5b447b6ea5581
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Fri May 24 13:26:50 2019 +0200
+
+    added bluetooth connection
+
+commit bc81f141cff1c9e8d3ec3e6db32545fee9b2781f
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Tue May 21 21:12:27 2019 +0200
+
+    first upload of android stduio code
+
+commit b45454beef6193db6877b10aca37eb68a5ecc71e
+Author: andrejavbelj <andrejavbelj1998@gmail.com>
+Date:   Tue May 21 21:10:15 2019 +0200
+
+    first commit
+
+commit a4be522fcba710bdb064c3b62bb403d3c73a8812
+Author: andavb <39746660+andavb@users.noreply.github.com>
+Date:   Tue May 21 20:56:07 2019 +0200
+
+    Initial commit
